@@ -1,0 +1,16 @@
+{
+  "anantapur": {
+    "name": "Anantapur",
+    "district": "Anantapur",
+    "state": "Andhra Pradesh",
+    "mp": null,
+    "zoom": 10
+  },
+  "narasaraopet": {
+    "name": "Narasaraopet",
+    "district": "Palnadu",
+    "state": "Andhra Pradesh",
+    "mp": "Lavu Sri Krishna Devarayalu",
+    "zoom": 11
+  }
+}

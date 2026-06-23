@@ -1,0 +1,3847 @@
+{
+ "fetched_at": "2026-07-04T18:02:55.467360+00:00",
+ "source": "Open-Meteo historical archive (ERA5/ERA5-Land): daily precipitation, FAO-56 ET0 and 0-7cm soil moisture, aggregated to 10-day windows",
+ "window_days": 10,
+ "plots": {
+  "plot-raptadu-01": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.9,
+    "et0_mm": 41.4,
+    "soil_moisture": 0.297
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 50.78,
+    "soil_moisture": 0.2836
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 58.67,
+    "soil_moisture": 0.2691
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 57.74,
+    "soil_moisture": 0.3062
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 64.71,
+    "soil_moisture": 0.284
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 67.03,
+    "soil_moisture": 0.2573
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 70.14,
+    "soil_moisture": 0.2475
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 1.0,
+    "et0_mm": 71.9,
+    "soil_moisture": 0.224
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 12.8,
+    "et0_mm": 68.6,
+    "soil_moisture": 0.2398
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 1.5,
+    "et0_mm": 70.94,
+    "soil_moisture": 0.2259
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.0,
+    "et0_mm": 72.17,
+    "soil_moisture": 0.2513
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 0.1,
+    "et0_mm": 70.78,
+    "soil_moisture": 0.2842
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 54.1,
+    "et0_mm": 55.87,
+    "soil_moisture": 0.3988
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 33.1,
+    "et0_mm": 53.57,
+    "soil_moisture": 0.399
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 9.2,
+    "et0_mm": 68.32,
+    "soil_moisture": 0.3262
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 18.9,
+    "et0_mm": 59.35,
+    "soil_moisture": 0.3783
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 3.1,
+    "et0_mm": 63.1,
+    "soil_moisture": 0.306
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 16.8,
+    "et0_mm": 60.66,
+    "soil_moisture": 0.3348
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 71.3,
+    "et0_mm": 57.72,
+    "soil_moisture": 0.388
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 55.5,
+    "et0_mm": 50.02,
+    "soil_moisture": 0.4763
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 40.0,
+    "et0_mm": 52.15,
+    "soil_moisture": 0.4453
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 64.9,
+    "et0_mm": 41.64,
+    "soil_moisture": 0.4908
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 25.2,
+    "et0_mm": 51.52,
+    "soil_moisture": 0.4613
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 15.7,
+    "et0_mm": 56.0,
+    "soil_moisture": 0.43
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 47.2,
+    "et0_mm": 47.6,
+    "soil_moisture": 0.4433
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 52.8,
+    "et0_mm": 42.56,
+    "soil_moisture": 0.4653
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 8.5,
+    "et0_mm": 48.71,
+    "soil_moisture": 0.437
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 63.7,
+    "et0_mm": 40.75,
+    "soil_moisture": 0.4492
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 77.6,
+    "et0_mm": 31.38,
+    "soil_moisture": 0.4836
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 13.6,
+    "et0_mm": 38.73,
+    "soil_moisture": 0.4295
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 1.3,
+    "et0_mm": 42.69,
+    "soil_moisture": 0.4138
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 6.8,
+    "et0_mm": 38.52,
+    "soil_moisture": 0.3777
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 12.7,
+    "et0_mm": 32.85,
+    "soil_moisture": 0.3901
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 41.68,
+    "soil_moisture": 0.3587
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.1,
+    "et0_mm": 41.54,
+    "soil_moisture": 0.3248
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.0,
+    "et0_mm": 42.0,
+    "soil_moisture": 0.347
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 1.1,
+    "et0_mm": 39.69,
+    "soil_moisture": 0.4007
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.0,
+    "et0_mm": 46.62,
+    "soil_moisture": 0.3825
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 1.5,
+    "et0_mm": 50.16,
+    "soil_moisture": 0.3269
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 55.63,
+    "soil_moisture": 0.2938
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 0.0,
+    "et0_mm": 59.65,
+    "soil_moisture": 0.2607
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 62.39,
+    "soil_moisture": 0.2523
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.0,
+    "et0_mm": 70.73,
+    "soil_moisture": 0.2487
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 0.3,
+    "et0_mm": 63.65,
+    "soil_moisture": 0.3069
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.6,
+    "et0_mm": 68.51,
+    "soil_moisture": 0.2667
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.0,
+    "et0_mm": 76.04,
+    "soil_moisture": 0.2087
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.0,
+    "et0_mm": 78.08,
+    "soil_moisture": 0.218
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.0,
+    "et0_mm": 72.69,
+    "soil_moisture": 0.2324
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 6.2,
+    "et0_mm": 72.97,
+    "soil_moisture": 0.1709
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 12.3,
+    "et0_mm": 64.94,
+    "soil_moisture": 0.2766
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 23.6,
+    "et0_mm": 63.12,
+    "soil_moisture": 0.3188
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 55.0,
+    "et0_mm": 57.97,
+    "soil_moisture": 0.3595
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 8.4,
+    "et0_mm": 66.65,
+    "soil_moisture": 0.2974
+   }
+  ],
+  "plot-garladinne-02": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.8,
+    "et0_mm": 42.5,
+    "soil_moisture": 0.2842
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 49.32,
+    "soil_moisture": 0.2669
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 55.96,
+    "soil_moisture": 0.2682
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 57.1,
+    "soil_moisture": 0.2558
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 63.82,
+    "soil_moisture": 0.2517
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 68.14,
+    "soil_moisture": 0.2509
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 70.9,
+    "soil_moisture": 0.2506
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 0.0,
+    "et0_mm": 71.31,
+    "soil_moisture": 0.2239
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 27.4,
+    "et0_mm": 66.88,
+    "soil_moisture": 0.2802
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 9.5,
+    "et0_mm": 69.08,
+    "soil_moisture": 0.264
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.0,
+    "et0_mm": 74.02,
+    "soil_moisture": 0.2534
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 0.1,
+    "et0_mm": 73.15,
+    "soil_moisture": 0.1931
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 39.1,
+    "et0_mm": 57.02,
+    "soil_moisture": 0.3157
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 41.3,
+    "et0_mm": 54.64,
+    "soil_moisture": 0.3806
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 13.8,
+    "et0_mm": 69.38,
+    "soil_moisture": 0.3252
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 19.5,
+    "et0_mm": 62.11,
+    "soil_moisture": 0.3794
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 8.3,
+    "et0_mm": 67.28,
+    "soil_moisture": 0.2889
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 16.1,
+    "et0_mm": 63.92,
+    "soil_moisture": 0.3025
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 96.5,
+    "et0_mm": 59.23,
+    "soil_moisture": 0.3611
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 46.2,
+    "et0_mm": 51.46,
+    "soil_moisture": 0.4733
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 48.4,
+    "et0_mm": 53.26,
+    "soil_moisture": 0.4331
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 75.9,
+    "et0_mm": 39.3,
+    "soil_moisture": 0.4865
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 61.4,
+    "et0_mm": 50.08,
+    "soil_moisture": 0.4411
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 19.9,
+    "et0_mm": 55.56,
+    "soil_moisture": 0.4229
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 65.6,
+    "et0_mm": 46.57,
+    "soil_moisture": 0.4266
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 87.1,
+    "et0_mm": 40.31,
+    "soil_moisture": 0.4738
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 15.6,
+    "et0_mm": 48.83,
+    "soil_moisture": 0.4136
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 37.7,
+    "et0_mm": 43.5,
+    "soil_moisture": 0.371
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 88.3,
+    "et0_mm": 29.7,
+    "soil_moisture": 0.4473
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 34.9,
+    "et0_mm": 38.0,
+    "soil_moisture": 0.404
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 1.1,
+    "et0_mm": 45.41,
+    "soil_moisture": 0.3186
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 6.3,
+    "et0_mm": 42.2,
+    "soil_moisture": 0.2891
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 11.5,
+    "et0_mm": 35.19,
+    "soil_moisture": 0.3249
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 42.61,
+    "soil_moisture": 0.3145
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 42.15,
+    "soil_moisture": 0.2829
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.6,
+    "et0_mm": 40.69,
+    "soil_moisture": 0.3138
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 2.3,
+    "et0_mm": 38.04,
+    "soil_moisture": 0.385
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.1,
+    "et0_mm": 44.1,
+    "soil_moisture": 0.3406
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.1,
+    "et0_mm": 48.43,
+    "soil_moisture": 0.2892
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 53.39,
+    "soil_moisture": 0.2607
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 0.1,
+    "et0_mm": 58.41,
+    "soil_moisture": 0.2529
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 61.01,
+    "soil_moisture": 0.2543
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.0,
+    "et0_mm": 68.27,
+    "soil_moisture": 0.2392
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 0.8,
+    "et0_mm": 62.79,
+    "soil_moisture": 0.251
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.3,
+    "et0_mm": 69.46,
+    "soil_moisture": 0.2309
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.0,
+    "et0_mm": 76.96,
+    "soil_moisture": 0.2382
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.0,
+    "et0_mm": 77.11,
+    "soil_moisture": 0.2394
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.0,
+    "et0_mm": 73.97,
+    "soil_moisture": 0.2572
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 1.1,
+    "et0_mm": 74.07,
+    "soil_moisture": 0.2284
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 13.2,
+    "et0_mm": 66.26,
+    "soil_moisture": 0.2981
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 15.1,
+    "et0_mm": 62.58,
+    "soil_moisture": 0.3246
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 68.3,
+    "et0_mm": 57.33,
+    "soil_moisture": 0.4307
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 4.3,
+    "et0_mm": 67.08,
+    "soil_moisture": 0.3279
+   }
+  ],
+  "plot-singanamala-03": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.7,
+    "et0_mm": 41.09,
+    "soil_moisture": 0.204
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 49.76,
+    "soil_moisture": 0.1871
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 58.26,
+    "soil_moisture": 0.1597
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 56.47,
+    "soil_moisture": 0.1696
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 64.69,
+    "soil_moisture": 0.1398
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 67.33,
+    "soil_moisture": 0.1364
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 71.94,
+    "soil_moisture": 0.1134
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 0.2,
+    "et0_mm": 70.91,
+    "soil_moisture": 0.1325
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 19.9,
+    "et0_mm": 66.19,
+    "soil_moisture": 0.1846
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 2.3,
+    "et0_mm": 69.12,
+    "soil_moisture": 0.1459
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.0,
+    "et0_mm": 75.36,
+    "soil_moisture": 0.1397
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 7.0,
+    "et0_mm": 69.46,
+    "soil_moisture": 0.2172
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 46.3,
+    "et0_mm": 55.33,
+    "soil_moisture": 0.2669
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 55.0,
+    "et0_mm": 54.77,
+    "soil_moisture": 0.3172
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 10.7,
+    "et0_mm": 69.59,
+    "soil_moisture": 0.2302
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 18.2,
+    "et0_mm": 61.28,
+    "soil_moisture": 0.26
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 5.6,
+    "et0_mm": 68.42,
+    "soil_moisture": 0.1951
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 25.2,
+    "et0_mm": 63.53,
+    "soil_moisture": 0.2146
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 66.4,
+    "et0_mm": 59.69,
+    "soil_moisture": 0.2646
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 41.8,
+    "et0_mm": 50.55,
+    "soil_moisture": 0.3613
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 81.8,
+    "et0_mm": 53.63,
+    "soil_moisture": 0.3175
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 61.8,
+    "et0_mm": 39.69,
+    "soil_moisture": 0.395
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 45.1,
+    "et0_mm": 49.27,
+    "soil_moisture": 0.3348
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 32.4,
+    "et0_mm": 54.42,
+    "soil_moisture": 0.2975
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 53.4,
+    "et0_mm": 47.43,
+    "soil_moisture": 0.3038
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 65.3,
+    "et0_mm": 39.0,
+    "soil_moisture": 0.3793
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 22.6,
+    "et0_mm": 47.27,
+    "soil_moisture": 0.3296
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 34.3,
+    "et0_mm": 41.01,
+    "soil_moisture": 0.3251
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 74.4,
+    "et0_mm": 29.24,
+    "soil_moisture": 0.3639
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 33.9,
+    "et0_mm": 35.53,
+    "soil_moisture": 0.3126
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 1.4,
+    "et0_mm": 44.82,
+    "soil_moisture": 0.2104
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 7.0,
+    "et0_mm": 41.47,
+    "soil_moisture": 0.1619
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 14.5,
+    "et0_mm": 34.48,
+    "soil_moisture": 0.1746
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 43.2,
+    "soil_moisture": 0.1606
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 42.6,
+    "soil_moisture": 0.1597
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.5,
+    "et0_mm": 40.82,
+    "soil_moisture": 0.1863
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 11.7,
+    "et0_mm": 39.9,
+    "soil_moisture": 0.2517
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.8,
+    "et0_mm": 45.69,
+    "soil_moisture": 0.2206
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.0,
+    "et0_mm": 50.24,
+    "soil_moisture": 0.1804
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 55.51,
+    "soil_moisture": 0.1659
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 0.1,
+    "et0_mm": 59.27,
+    "soil_moisture": 0.1478
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 60.51,
+    "soil_moisture": 0.1554
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.0,
+    "et0_mm": 70.7,
+    "soil_moisture": 0.1339
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 3.1,
+    "et0_mm": 64.72,
+    "soil_moisture": 0.1784
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.0,
+    "et0_mm": 70.47,
+    "soil_moisture": 0.1443
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.0,
+    "et0_mm": 76.79,
+    "soil_moisture": 0.1262
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.1,
+    "et0_mm": 78.64,
+    "soil_moisture": 0.1084
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.0,
+    "et0_mm": 75.39,
+    "soil_moisture": 0.1224
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 5.0,
+    "et0_mm": 72.61,
+    "soil_moisture": 0.12
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 11.6,
+    "et0_mm": 66.94,
+    "soil_moisture": 0.2326
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 19.6,
+    "et0_mm": 61.64,
+    "soil_moisture": 0.2418
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 34.3,
+    "et0_mm": 57.62,
+    "soil_moisture": 0.2823
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 2.1,
+    "et0_mm": 64.45,
+    "soil_moisture": 0.221
+   }
+  ],
+  "plot-kalyandurg-04": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.3,
+    "et0_mm": 43.61,
+    "soil_moisture": 0.2789
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 54.59,
+    "soil_moisture": 0.2429
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 64.54,
+    "soil_moisture": 0.2366
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 65.3,
+    "soil_moisture": 0.2536
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 68.92,
+    "soil_moisture": 0.2518
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 71.44,
+    "soil_moisture": 0.2502
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 72.09,
+    "soil_moisture": 0.2373
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 0.3,
+    "et0_mm": 70.98,
+    "soil_moisture": 0.1908
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 13.3,
+    "et0_mm": 69.0,
+    "soil_moisture": 0.2714
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 8.0,
+    "et0_mm": 67.9,
+    "soil_moisture": 0.2727
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.0,
+    "et0_mm": 69.46,
+    "soil_moisture": 0.2739
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 0.8,
+    "et0_mm": 70.13,
+    "soil_moisture": 0.2729
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 34.3,
+    "et0_mm": 54.36,
+    "soil_moisture": 0.389
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 38.3,
+    "et0_mm": 50.14,
+    "soil_moisture": 0.4376
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 3.3,
+    "et0_mm": 65.67,
+    "soil_moisture": 0.3542
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 39.2,
+    "et0_mm": 55.03,
+    "soil_moisture": 0.4158
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 7.9,
+    "et0_mm": 57.4,
+    "soil_moisture": 0.3694
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 16.1,
+    "et0_mm": 55.98,
+    "soil_moisture": 0.3659
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 74.0,
+    "et0_mm": 51.94,
+    "soil_moisture": 0.3862
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 48.6,
+    "et0_mm": 45.1,
+    "soil_moisture": 0.4824
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 49.8,
+    "et0_mm": 50.25,
+    "soil_moisture": 0.4524
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 61.4,
+    "et0_mm": 37.9,
+    "soil_moisture": 0.4952
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 37.4,
+    "et0_mm": 45.3,
+    "soil_moisture": 0.4598
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 17.8,
+    "et0_mm": 50.21,
+    "soil_moisture": 0.4428
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 51.8,
+    "et0_mm": 44.27,
+    "soil_moisture": 0.457
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 40.5,
+    "et0_mm": 39.13,
+    "soil_moisture": 0.477
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 21.0,
+    "et0_mm": 46.57,
+    "soil_moisture": 0.4422
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 52.1,
+    "et0_mm": 40.92,
+    "soil_moisture": 0.4381
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 70.2,
+    "et0_mm": 32.47,
+    "soil_moisture": 0.4713
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 6.9,
+    "et0_mm": 39.17,
+    "soil_moisture": 0.3831
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 0.4,
+    "et0_mm": 43.46,
+    "soil_moisture": 0.3435
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 4.5,
+    "et0_mm": 40.78,
+    "soil_moisture": 0.3155
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 8.1,
+    "et0_mm": 34.46,
+    "soil_moisture": 0.3173
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 43.01,
+    "soil_moisture": 0.294
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.2,
+    "et0_mm": 42.67,
+    "soil_moisture": 0.273
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.0,
+    "et0_mm": 42.45,
+    "soil_moisture": 0.3036
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 8.0,
+    "et0_mm": 40.8,
+    "soil_moisture": 0.3182
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.0,
+    "et0_mm": 50.34,
+    "soil_moisture": 0.2533
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 3.9,
+    "et0_mm": 51.34,
+    "soil_moisture": 0.2647
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 58.78,
+    "soil_moisture": 0.226
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 0.0,
+    "et0_mm": 61.0,
+    "soil_moisture": 0.2365
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 61.81,
+    "soil_moisture": 0.2448
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.0,
+    "et0_mm": 70.01,
+    "soil_moisture": 0.2335
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 0.0,
+    "et0_mm": 64.5,
+    "soil_moisture": 0.2292
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 2.0,
+    "et0_mm": 68.88,
+    "soil_moisture": 0.2414
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.0,
+    "et0_mm": 72.34,
+    "soil_moisture": 0.1612
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.1,
+    "et0_mm": 75.3,
+    "soil_moisture": 0.1744
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.1,
+    "et0_mm": 74.29,
+    "soil_moisture": 0.1754
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 16.2,
+    "et0_mm": 71.0,
+    "soil_moisture": 0.1816
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 8.7,
+    "et0_mm": 61.4,
+    "soil_moisture": 0.2848
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 16.7,
+    "et0_mm": 58.85,
+    "soil_moisture": 0.325
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 89.7,
+    "et0_mm": 52.98,
+    "soil_moisture": 0.4254
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 8.0,
+    "et0_mm": 62.38,
+    "soil_moisture": 0.3178
+   }
+  ],
+  "plot-narpala-05": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.9,
+    "et0_mm": 40.29,
+    "soil_moisture": 0.2207
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 48.82,
+    "soil_moisture": 0.2067
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 55.54,
+    "soil_moisture": 0.1816
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 55.4,
+    "soil_moisture": 0.1563
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 63.75,
+    "soil_moisture": 0.1273
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 66.19,
+    "soil_moisture": 0.1218
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 70.71,
+    "soil_moisture": 0.1184
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 0.2,
+    "et0_mm": 70.52,
+    "soil_moisture": 0.1251
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 19.9,
+    "et0_mm": 65.9,
+    "soil_moisture": 0.1881
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 3.1,
+    "et0_mm": 68.47,
+    "soil_moisture": 0.1392
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.0,
+    "et0_mm": 74.24,
+    "soil_moisture": 0.123
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 2.6,
+    "et0_mm": 70.55,
+    "soil_moisture": 0.1793
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 31.9,
+    "et0_mm": 55.56,
+    "soil_moisture": 0.232
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 46.8,
+    "et0_mm": 53.98,
+    "soil_moisture": 0.2946
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 7.2,
+    "et0_mm": 69.11,
+    "soil_moisture": 0.2037
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 13.5,
+    "et0_mm": 61.13,
+    "soil_moisture": 0.2096
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 4.0,
+    "et0_mm": 67.37,
+    "soil_moisture": 0.2033
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 30.6,
+    "et0_mm": 63.48,
+    "soil_moisture": 0.2066
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 73.0,
+    "et0_mm": 59.72,
+    "soil_moisture": 0.2484
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 42.0,
+    "et0_mm": 50.78,
+    "soil_moisture": 0.3533
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 53.9,
+    "et0_mm": 53.33,
+    "soil_moisture": 0.3137
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 73.4,
+    "et0_mm": 39.98,
+    "soil_moisture": 0.3853
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 58.7,
+    "et0_mm": 49.91,
+    "soil_moisture": 0.3256
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 31.1,
+    "et0_mm": 55.05,
+    "soil_moisture": 0.2854
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 56.4,
+    "et0_mm": 46.99,
+    "soil_moisture": 0.3055
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 76.4,
+    "et0_mm": 39.76,
+    "soil_moisture": 0.3683
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 17.4,
+    "et0_mm": 47.56,
+    "soil_moisture": 0.3161
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 35.7,
+    "et0_mm": 41.95,
+    "soil_moisture": 0.2846
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 72.5,
+    "et0_mm": 29.73,
+    "soil_moisture": 0.3424
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 30.5,
+    "et0_mm": 36.4,
+    "soil_moisture": 0.2737
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 1.3,
+    "et0_mm": 45.34,
+    "soil_moisture": 0.1864
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 4.7,
+    "et0_mm": 41.98,
+    "soil_moisture": 0.1502
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 15.9,
+    "et0_mm": 34.72,
+    "soil_moisture": 0.1719
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 43.07,
+    "soil_moisture": 0.1537
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 42.4,
+    "soil_moisture": 0.1432
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 1.1,
+    "et0_mm": 40.91,
+    "soil_moisture": 0.1765
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 1.7,
+    "et0_mm": 39.02,
+    "soil_moisture": 0.2278
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.8,
+    "et0_mm": 44.88,
+    "soil_moisture": 0.2052
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.0,
+    "et0_mm": 49.38,
+    "soil_moisture": 0.1912
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 54.65,
+    "soil_moisture": 0.1522
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 0.1,
+    "et0_mm": 58.26,
+    "soil_moisture": 0.1277
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 61.07,
+    "soil_moisture": 0.1253
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.0,
+    "et0_mm": 70.25,
+    "soil_moisture": 0.1048
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 0.2,
+    "et0_mm": 65.36,
+    "soil_moisture": 0.1315
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.1,
+    "et0_mm": 68.7,
+    "soil_moisture": 0.1302
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.0,
+    "et0_mm": 75.03,
+    "soil_moisture": 0.0878
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.0,
+    "et0_mm": 77.89,
+    "soil_moisture": 0.0301
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.0,
+    "et0_mm": 74.49,
+    "soil_moisture": 0.0337
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 2.4,
+    "et0_mm": 72.57,
+    "soil_moisture": 0.0551
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 9.7,
+    "et0_mm": 67.51,
+    "soil_moisture": 0.1475
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 21.1,
+    "et0_mm": 61.74,
+    "soil_moisture": 0.1551
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 44.5,
+    "et0_mm": 56.69,
+    "soil_moisture": 0.2751
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 5.3,
+    "et0_mm": 63.08,
+    "soil_moisture": 0.2519
+   }
+  ],
+  "plot-atmakur-06": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.9,
+    "et0_mm": 41.87,
+    "soil_moisture": 0.1896
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 50.78,
+    "soil_moisture": 0.1827
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 58.92,
+    "soil_moisture": 0.1588
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 58.39,
+    "soil_moisture": 0.1935
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 63.86,
+    "soil_moisture": 0.2533
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 66.91,
+    "soil_moisture": 0.349
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 69.02,
+    "soil_moisture": 0.2616
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 0.1,
+    "et0_mm": 68.65,
+    "soil_moisture": 0.1377
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 23.4,
+    "et0_mm": 67.89,
+    "soil_moisture": 0.1841
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 4.9,
+    "et0_mm": 68.2,
+    "soil_moisture": 0.1623
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.0,
+    "et0_mm": 70.88,
+    "soil_moisture": 0.1393
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 0.9,
+    "et0_mm": 68.08,
+    "soil_moisture": 0.1942
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 36.5,
+    "et0_mm": 54.47,
+    "soil_moisture": 0.3292
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 37.5,
+    "et0_mm": 52.48,
+    "soil_moisture": 0.3496
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 11.9,
+    "et0_mm": 67.08,
+    "soil_moisture": 0.3032
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 20.1,
+    "et0_mm": 57.43,
+    "soil_moisture": 0.3285
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 6.1,
+    "et0_mm": 61.2,
+    "soil_moisture": 0.2701
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 13.0,
+    "et0_mm": 58.82,
+    "soil_moisture": 0.2766
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 63.9,
+    "et0_mm": 55.15,
+    "soil_moisture": 0.3278
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 48.3,
+    "et0_mm": 49.25,
+    "soil_moisture": 0.3939
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 73.4,
+    "et0_mm": 51.94,
+    "soil_moisture": 0.3725
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 69.1,
+    "et0_mm": 39.96,
+    "soil_moisture": 0.4089
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 38.0,
+    "et0_mm": 49.05,
+    "soil_moisture": 0.3731
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 19.3,
+    "et0_mm": 54.06,
+    "soil_moisture": 0.3179
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 42.6,
+    "et0_mm": 46.53,
+    "soil_moisture": 0.3332
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 57.5,
+    "et0_mm": 40.14,
+    "soil_moisture": 0.3778
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 12.5,
+    "et0_mm": 48.57,
+    "soil_moisture": 0.3443
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 43.7,
+    "et0_mm": 41.58,
+    "soil_moisture": 0.337
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 90.2,
+    "et0_mm": 31.06,
+    "soil_moisture": 0.3774
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 20.1,
+    "et0_mm": 39.17,
+    "soil_moisture": 0.292
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 1.0,
+    "et0_mm": 44.09,
+    "soil_moisture": 0.2344
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 5.0,
+    "et0_mm": 40.83,
+    "soil_moisture": 0.1779
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 24.5,
+    "et0_mm": 34.23,
+    "soil_moisture": 0.1986
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 41.91,
+    "soil_moisture": 0.2063
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.1,
+    "et0_mm": 41.66,
+    "soil_moisture": 0.1913
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.0,
+    "et0_mm": 41.0,
+    "soil_moisture": 0.242
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 3.9,
+    "et0_mm": 38.85,
+    "soil_moisture": 0.3241
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.1,
+    "et0_mm": 46.01,
+    "soil_moisture": 0.3319
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 1.3,
+    "et0_mm": 48.66,
+    "soil_moisture": 0.3077
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 54.45,
+    "soil_moisture": 0.291
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 0.0,
+    "et0_mm": 57.76,
+    "soil_moisture": 0.2484
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 59.82,
+    "soil_moisture": 0.1893
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.0,
+    "et0_mm": 69.18,
+    "soil_moisture": 0.1404
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 0.9,
+    "et0_mm": 62.49,
+    "soil_moisture": 0.1739
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 9.7,
+    "et0_mm": 68.29,
+    "soil_moisture": 0.1537
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.0,
+    "et0_mm": 73.44,
+    "soil_moisture": 0.1673
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.0,
+    "et0_mm": 74.9,
+    "soil_moisture": 0.1406
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.0,
+    "et0_mm": 73.17,
+    "soil_moisture": 0.1346
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 5.1,
+    "et0_mm": 73.12,
+    "soil_moisture": 0.1011
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 18.9,
+    "et0_mm": 63.31,
+    "soil_moisture": 0.1533
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 27.4,
+    "et0_mm": 60.44,
+    "soil_moisture": 0.1778
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 61.0,
+    "et0_mm": 56.4,
+    "soil_moisture": 0.3128
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 5.9,
+    "et0_mm": 65.34,
+    "soil_moisture": 0.2479
+   }
+  ],
+  "plot-narasaraopet-01": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.1,
+    "et0_mm": 39.8,
+    "soil_moisture": 0.1513
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.1,
+    "et0_mm": 42.21,
+    "soil_moisture": 0.1284
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 50.25,
+    "soil_moisture": 0.1302
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 51.71,
+    "soil_moisture": 0.1207
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.6,
+    "et0_mm": 53.92,
+    "soil_moisture": 0.1231
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 59.62,
+    "soil_moisture": 0.1023
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.1,
+    "et0_mm": 62.49,
+    "soil_moisture": 0.0844
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 2.8,
+    "et0_mm": 58.78,
+    "soil_moisture": 0.1132
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 9.3,
+    "et0_mm": 52.75,
+    "soil_moisture": 0.1687
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 6.3,
+    "et0_mm": 58.59,
+    "soil_moisture": 0.1481
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.8,
+    "et0_mm": 63.01,
+    "soil_moisture": 0.1167
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 14.8,
+    "et0_mm": 57.02,
+    "soil_moisture": 0.1704
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 46.4,
+    "et0_mm": 51.89,
+    "soil_moisture": 0.1937
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 41.3,
+    "et0_mm": 51.53,
+    "soil_moisture": 0.3477
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 1.3,
+    "et0_mm": 66.02,
+    "soil_moisture": 0.2322
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 32.7,
+    "et0_mm": 59.16,
+    "soil_moisture": 0.2036
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 25.1,
+    "et0_mm": 55.07,
+    "soil_moisture": 0.2106
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 16.4,
+    "et0_mm": 51.59,
+    "soil_moisture": 0.255
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 38.6,
+    "et0_mm": 63.47,
+    "soil_moisture": 0.143
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 73.2,
+    "et0_mm": 46.7,
+    "soil_moisture": 0.2774
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 16.9,
+    "et0_mm": 56.27,
+    "soil_moisture": 0.1583
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 107.4,
+    "et0_mm": 39.5,
+    "soil_moisture": 0.319
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 40.8,
+    "et0_mm": 42.85,
+    "soil_moisture": 0.3182
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 42.3,
+    "et0_mm": 49.32,
+    "soil_moisture": 0.2788
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 35.9,
+    "et0_mm": 44.67,
+    "soil_moisture": 0.2353
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 36.0,
+    "et0_mm": 44.1,
+    "soil_moisture": 0.2759
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 41.3,
+    "et0_mm": 41.42,
+    "soil_moisture": 0.2642
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 59.3,
+    "et0_mm": 35.94,
+    "soil_moisture": 0.2784
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 109.9,
+    "et0_mm": 22.69,
+    "soil_moisture": 0.3359
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 199.0,
+    "et0_mm": 36.75,
+    "soil_moisture": 0.2663
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 0.0,
+    "et0_mm": 49.11,
+    "soil_moisture": 0.0594
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 5.9,
+    "et0_mm": 43.17,
+    "soil_moisture": 0.0962
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 28.0,
+    "et0_mm": 31.6,
+    "soil_moisture": 0.222
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 38.54,
+    "soil_moisture": 0.1462
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 38.03,
+    "soil_moisture": 0.1329
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.6,
+    "et0_mm": 35.46,
+    "soil_moisture": 0.1473
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 3.5,
+    "et0_mm": 39.03,
+    "soil_moisture": 0.147
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.0,
+    "et0_mm": 40.17,
+    "soil_moisture": 0.1373
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.0,
+    "et0_mm": 42.54,
+    "soil_moisture": 0.135
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.1,
+    "et0_mm": 48.57,
+    "soil_moisture": 0.124
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 2.3,
+    "et0_mm": 48.7,
+    "soil_moisture": 0.1163
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.2,
+    "et0_mm": 54.83,
+    "soil_moisture": 0.1365
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.3,
+    "et0_mm": 56.75,
+    "soil_moisture": 0.1339
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 18.8,
+    "et0_mm": 48.99,
+    "soil_moisture": 0.1803
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.8,
+    "et0_mm": 56.66,
+    "soil_moisture": 0.1532
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 1.1,
+    "et0_mm": 61.58,
+    "soil_moisture": 0.1351
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.1,
+    "et0_mm": 62.9,
+    "soil_moisture": 0.1316
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.1,
+    "et0_mm": 63.4,
+    "soil_moisture": 0.1107
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 14.1,
+    "et0_mm": 57.29,
+    "soil_moisture": 0.1275
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 3.4,
+    "et0_mm": 74.78,
+    "soil_moisture": 0.142
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 16.3,
+    "et0_mm": 63.37,
+    "soil_moisture": 0.2315
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 32.6,
+    "et0_mm": 59.98,
+    "soil_moisture": 0.2962
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 11.7,
+    "et0_mm": 56.3,
+    "soil_moisture": 0.3509
+   }
+  ],
+  "plot-chilakaluripet-02": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.2,
+    "et0_mm": 40.22,
+    "soil_moisture": 0.2832
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.1,
+    "et0_mm": 41.85,
+    "soil_moisture": 0.2566
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 49.83,
+    "soil_moisture": 0.25
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 51.42,
+    "soil_moisture": 0.2503
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.5,
+    "et0_mm": 53.85,
+    "soil_moisture": 0.2431
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.2,
+    "et0_mm": 59.44,
+    "soil_moisture": 0.2381
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 62.6,
+    "soil_moisture": 0.2329
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 3.6,
+    "et0_mm": 59.59,
+    "soil_moisture": 0.2342
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 13.1,
+    "et0_mm": 54.16,
+    "soil_moisture": 0.2612
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 10.2,
+    "et0_mm": 58.79,
+    "soil_moisture": 0.2583
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.9,
+    "et0_mm": 64.25,
+    "soil_moisture": 0.24
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 17.4,
+    "et0_mm": 57.7,
+    "soil_moisture": 0.2814
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 64.1,
+    "et0_mm": 51.81,
+    "soil_moisture": 0.3256
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 45.0,
+    "et0_mm": 50.74,
+    "soil_moisture": 0.4543
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 0.9,
+    "et0_mm": 65.62,
+    "soil_moisture": 0.346
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 30.1,
+    "et0_mm": 58.31,
+    "soil_moisture": 0.3546
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 29.1,
+    "et0_mm": 52.28,
+    "soil_moisture": 0.3669
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 20.9,
+    "et0_mm": 50.3,
+    "soil_moisture": 0.3745
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 27.8,
+    "et0_mm": 63.49,
+    "soil_moisture": 0.2745
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 83.8,
+    "et0_mm": 45.89,
+    "soil_moisture": 0.414
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 17.9,
+    "et0_mm": 56.36,
+    "soil_moisture": 0.2815
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 129.2,
+    "et0_mm": 39.12,
+    "soil_moisture": 0.4454
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 57.7,
+    "et0_mm": 41.73,
+    "soil_moisture": 0.4236
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 39.1,
+    "et0_mm": 48.23,
+    "soil_moisture": 0.4196
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 44.1,
+    "et0_mm": 43.21,
+    "soil_moisture": 0.3725
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 52.9,
+    "et0_mm": 43.63,
+    "soil_moisture": 0.4037
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 41.3,
+    "et0_mm": 40.57,
+    "soil_moisture": 0.3952
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 55.0,
+    "et0_mm": 35.2,
+    "soil_moisture": 0.445
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 118.8,
+    "et0_mm": 22.99,
+    "soil_moisture": 0.4783
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 201.9,
+    "et0_mm": 35.77,
+    "soil_moisture": 0.3944
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 0.2,
+    "et0_mm": 43.7,
+    "soil_moisture": 0.2071
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 3.7,
+    "et0_mm": 39.23,
+    "soil_moisture": 0.2415
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 31.2,
+    "et0_mm": 29.71,
+    "soil_moisture": 0.3623
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 36.98,
+    "soil_moisture": 0.3001
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 36.52,
+    "soil_moisture": 0.2832
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 1.2,
+    "et0_mm": 34.32,
+    "soil_moisture": 0.2953
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 1.3,
+    "et0_mm": 37.78,
+    "soil_moisture": 0.276
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.1,
+    "et0_mm": 39.41,
+    "soil_moisture": 0.261
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.0,
+    "et0_mm": 42.35,
+    "soil_moisture": 0.263
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 47.84,
+    "soil_moisture": 0.2508
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 3.0,
+    "et0_mm": 47.87,
+    "soil_moisture": 0.2517
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.2,
+    "et0_mm": 52.32,
+    "soil_moisture": 0.2676
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.2,
+    "et0_mm": 54.29,
+    "soil_moisture": 0.2613
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 22.0,
+    "et0_mm": 48.06,
+    "soil_moisture": 0.2989
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.8,
+    "et0_mm": 55.34,
+    "soil_moisture": 0.266
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 1.4,
+    "et0_mm": 60.54,
+    "soil_moisture": 0.2454
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 1.1,
+    "et0_mm": 61.71,
+    "soil_moisture": 0.2491
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.3,
+    "et0_mm": 62.51,
+    "soil_moisture": 0.237
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 13.9,
+    "et0_mm": 56.8,
+    "soil_moisture": 0.256
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 2.1,
+    "et0_mm": 74.32,
+    "soil_moisture": 0.2753
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 18.0,
+    "et0_mm": 64.4,
+    "soil_moisture": 0.3351
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 24.9,
+    "et0_mm": 60.78,
+    "soil_moisture": 0.3632
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 12.3,
+    "et0_mm": 55.31,
+    "soil_moisture": 0.4019
+   }
+  ],
+  "plot-sattenapalle-03": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.1,
+    "et0_mm": 41.06,
+    "soil_moisture": 0.1452
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.2,
+    "et0_mm": 42.08,
+    "soil_moisture": 0.1237
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 49.93,
+    "soil_moisture": 0.1243
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 52.25,
+    "soil_moisture": 0.12
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 54.18,
+    "soil_moisture": 0.1186
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.1,
+    "et0_mm": 60.76,
+    "soil_moisture": 0.1197
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.1,
+    "et0_mm": 63.36,
+    "soil_moisture": 0.1126
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 1.8,
+    "et0_mm": 59.65,
+    "soil_moisture": 0.1275
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 14.0,
+    "et0_mm": 55.04,
+    "soil_moisture": 0.1512
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 8.7,
+    "et0_mm": 60.43,
+    "soil_moisture": 0.1405
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 7.4,
+    "et0_mm": 65.96,
+    "soil_moisture": 0.1063
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 23.5,
+    "et0_mm": 58.63,
+    "soil_moisture": 0.1366
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 50.6,
+    "et0_mm": 52.45,
+    "soil_moisture": 0.2278
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 52.0,
+    "et0_mm": 48.27,
+    "soil_moisture": 0.3503
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 0.9,
+    "et0_mm": 65.99,
+    "soil_moisture": 0.2156
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 27.4,
+    "et0_mm": 58.38,
+    "soil_moisture": 0.2283
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 29.2,
+    "et0_mm": 53.55,
+    "soil_moisture": 0.2379
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 21.0,
+    "et0_mm": 48.04,
+    "soil_moisture": 0.2629
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 20.1,
+    "et0_mm": 62.77,
+    "soil_moisture": 0.1285
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 61.1,
+    "et0_mm": 45.19,
+    "soil_moisture": 0.2948
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 29.1,
+    "et0_mm": 55.35,
+    "soil_moisture": 0.2014
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 150.4,
+    "et0_mm": 38.93,
+    "soil_moisture": 0.3408
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 79.9,
+    "et0_mm": 41.5,
+    "soil_moisture": 0.33
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 24.0,
+    "et0_mm": 48.24,
+    "soil_moisture": 0.3046
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 28.0,
+    "et0_mm": 42.32,
+    "soil_moisture": 0.2481
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 96.6,
+    "et0_mm": 43.1,
+    "soil_moisture": 0.3166
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 32.7,
+    "et0_mm": 40.57,
+    "soil_moisture": 0.2562
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 60.9,
+    "et0_mm": 35.77,
+    "soil_moisture": 0.2661
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 99.0,
+    "et0_mm": 25.18,
+    "soil_moisture": 0.3397
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 117.4,
+    "et0_mm": 35.42,
+    "soil_moisture": 0.2622
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 0.1,
+    "et0_mm": 44.75,
+    "soil_moisture": 0.0839
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 2.6,
+    "et0_mm": 41.22,
+    "soil_moisture": 0.1152
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 42.2,
+    "et0_mm": 32.81,
+    "soil_moisture": 0.195
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 38.52,
+    "soil_moisture": 0.1339
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 38.18,
+    "soil_moisture": 0.1252
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.5,
+    "et0_mm": 34.67,
+    "soil_moisture": 0.1556
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 1.5,
+    "et0_mm": 37.58,
+    "soil_moisture": 0.157
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.3,
+    "et0_mm": 39.31,
+    "soil_moisture": 0.1329
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.1,
+    "et0_mm": 42.29,
+    "soil_moisture": 0.1385
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.2,
+    "et0_mm": 47.57,
+    "soil_moisture": 0.1245
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 3.2,
+    "et0_mm": 47.58,
+    "soil_moisture": 0.1213
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 52.09,
+    "soil_moisture": 0.1638
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.1,
+    "et0_mm": 55.8,
+    "soil_moisture": 0.1302
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 10.4,
+    "et0_mm": 48.64,
+    "soil_moisture": 0.1594
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.5,
+    "et0_mm": 56.68,
+    "soil_moisture": 0.1374
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.9,
+    "et0_mm": 61.2,
+    "soil_moisture": 0.1386
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.3,
+    "et0_mm": 62.43,
+    "soil_moisture": 0.1311
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.2,
+    "et0_mm": 64.17,
+    "soil_moisture": 0.1114
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 9.9,
+    "et0_mm": 57.15,
+    "soil_moisture": 0.1243
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 1.3,
+    "et0_mm": 71.23,
+    "soil_moisture": 0.1662
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 6.7,
+    "et0_mm": 63.75,
+    "soil_moisture": 0.2323
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 28.2,
+    "et0_mm": 57.72,
+    "soil_moisture": 0.2964
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 20.6,
+    "et0_mm": 52.89,
+    "soil_moisture": 0.342
+   }
+  ],
+  "plot-vinukonda-04": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.2,
+    "et0_mm": 40.15,
+    "soil_moisture": 0.2854
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 43.7,
+    "soil_moisture": 0.2481
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 52.27,
+    "soil_moisture": 0.2438
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 53.71,
+    "soil_moisture": 0.2443
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.4,
+    "et0_mm": 55.96,
+    "soil_moisture": 0.2421
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.0,
+    "et0_mm": 62.15,
+    "soil_moisture": 0.2451
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.1,
+    "et0_mm": 66.53,
+    "soil_moisture": 0.2429
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 2.8,
+    "et0_mm": 62.4,
+    "soil_moisture": 0.2649
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 18.4,
+    "et0_mm": 54.88,
+    "soil_moisture": 0.295
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 5.6,
+    "et0_mm": 60.77,
+    "soil_moisture": 0.2589
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 0.0,
+    "et0_mm": 66.54,
+    "soil_moisture": 0.1948
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 9.5,
+    "et0_mm": 60.86,
+    "soil_moisture": 0.2134
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 45.3,
+    "et0_mm": 57.92,
+    "soil_moisture": 0.2548
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 36.5,
+    "et0_mm": 52.36,
+    "soil_moisture": 0.4449
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 2.1,
+    "et0_mm": 67.42,
+    "soil_moisture": 0.3313
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 35.7,
+    "et0_mm": 59.9,
+    "soil_moisture": 0.3136
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 20.1,
+    "et0_mm": 60.05,
+    "soil_moisture": 0.3124
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 24.1,
+    "et0_mm": 52.41,
+    "soil_moisture": 0.3715
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 27.8,
+    "et0_mm": 63.91,
+    "soil_moisture": 0.2998
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 51.7,
+    "et0_mm": 46.36,
+    "soil_moisture": 0.4521
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 18.1,
+    "et0_mm": 54.71,
+    "soil_moisture": 0.3329
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 125.4,
+    "et0_mm": 41.24,
+    "soil_moisture": 0.4345
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 28.8,
+    "et0_mm": 43.93,
+    "soil_moisture": 0.4227
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 31.9,
+    "et0_mm": 50.18,
+    "soil_moisture": 0.4091
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 33.1,
+    "et0_mm": 45.71,
+    "soil_moisture": 0.3528
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 32.2,
+    "et0_mm": 46.13,
+    "soil_moisture": 0.3891
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 41.9,
+    "et0_mm": 44.98,
+    "soil_moisture": 0.3584
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 55.7,
+    "et0_mm": 35.77,
+    "soil_moisture": 0.4391
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 97.0,
+    "et0_mm": 25.0,
+    "soil_moisture": 0.4603
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 154.3,
+    "et0_mm": 36.07,
+    "soil_moisture": 0.4238
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 0.0,
+    "et0_mm": 44.96,
+    "soil_moisture": 0.2632
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 5.6,
+    "et0_mm": 39.76,
+    "soil_moisture": 0.2618
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 15.3,
+    "et0_mm": 31.79,
+    "soil_moisture": 0.3234
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 36.93,
+    "soil_moisture": 0.2788
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 37.74,
+    "soil_moisture": 0.2622
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 1.1,
+    "et0_mm": 35.3,
+    "soil_moisture": 0.287
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 1.2,
+    "et0_mm": 37.72,
+    "soil_moisture": 0.2766
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.0,
+    "et0_mm": 41.13,
+    "soil_moisture": 0.2463
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.0,
+    "et0_mm": 44.0,
+    "soil_moisture": 0.2515
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 49.8,
+    "soil_moisture": 0.2452
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 2.7,
+    "et0_mm": 50.15,
+    "soil_moisture": 0.2462
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.0,
+    "et0_mm": 56.07,
+    "soil_moisture": 0.2435
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.2,
+    "et0_mm": 58.72,
+    "soil_moisture": 0.2318
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 19.6,
+    "et0_mm": 51.04,
+    "soil_moisture": 0.2668
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 1.0,
+    "et0_mm": 60.57,
+    "soil_moisture": 0.2392
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.4,
+    "et0_mm": 64.41,
+    "soil_moisture": 0.2055
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 0.7,
+    "et0_mm": 65.34,
+    "soil_moisture": 0.0711
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.1,
+    "et0_mm": 66.18,
+    "soil_moisture": 0.0314
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 7.2,
+    "et0_mm": 60.26,
+    "soil_moisture": 0.1056
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 1.7,
+    "et0_mm": 77.41,
+    "soil_moisture": 0.2255
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 15.5,
+    "et0_mm": 67.57,
+    "soil_moisture": 0.3278
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 22.7,
+    "et0_mm": 61.66,
+    "soil_moisture": 0.3442
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 4.6,
+    "et0_mm": 61.87,
+    "soil_moisture": 0.3706
+   }
+  ],
+  "plot-nadendla-05": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.2,
+    "et0_mm": 40.61,
+    "soil_moisture": 0.1441
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 42.03,
+    "soil_moisture": 0.1161
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 50.05,
+    "soil_moisture": 0.1188
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 52.04,
+    "soil_moisture": 0.1188
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.5,
+    "et0_mm": 54.23,
+    "soil_moisture": 0.084
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.2,
+    "et0_mm": 60.11,
+    "soil_moisture": 0.0836
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 63.09,
+    "soil_moisture": 0.0689
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 2.3,
+    "et0_mm": 59.28,
+    "soil_moisture": 0.0771
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 22.8,
+    "et0_mm": 53.45,
+    "soil_moisture": 0.1355
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 5.5,
+    "et0_mm": 58.08,
+    "soil_moisture": 0.1404
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 1.3,
+    "et0_mm": 63.88,
+    "soil_moisture": 0.0878
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 27.3,
+    "et0_mm": 57.67,
+    "soil_moisture": 0.1459
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 59.1,
+    "et0_mm": 51.55,
+    "soil_moisture": 0.2108
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 43.1,
+    "et0_mm": 49.77,
+    "soil_moisture": 0.3432
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 0.7,
+    "et0_mm": 64.88,
+    "soil_moisture": 0.2357
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 23.9,
+    "et0_mm": 57.73,
+    "soil_moisture": 0.2409
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 28.1,
+    "et0_mm": 51.68,
+    "soil_moisture": 0.2528
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 18.5,
+    "et0_mm": 49.33,
+    "soil_moisture": 0.2623
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 20.6,
+    "et0_mm": 62.8,
+    "soil_moisture": 0.1543
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 80.1,
+    "et0_mm": 45.41,
+    "soil_moisture": 0.309
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 19.5,
+    "et0_mm": 55.44,
+    "soil_moisture": 0.1801
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 131.6,
+    "et0_mm": 39.47,
+    "soil_moisture": 0.3354
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 61.7,
+    "et0_mm": 41.59,
+    "soil_moisture": 0.3336
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 27.8,
+    "et0_mm": 48.93,
+    "soil_moisture": 0.301
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 41.8,
+    "et0_mm": 43.23,
+    "soil_moisture": 0.2439
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 45.3,
+    "et0_mm": 44.56,
+    "soil_moisture": 0.2597
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 42.7,
+    "et0_mm": 41.5,
+    "soil_moisture": 0.2509
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 42.0,
+    "et0_mm": 35.38,
+    "soil_moisture": 0.3148
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 104.5,
+    "et0_mm": 23.89,
+    "soil_moisture": 0.3576
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 175.3,
+    "et0_mm": 35.85,
+    "soil_moisture": 0.2806
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 0.0,
+    "et0_mm": 45.47,
+    "soil_moisture": 0.0846
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 2.4,
+    "et0_mm": 41.14,
+    "soil_moisture": 0.1065
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 39.5,
+    "et0_mm": 31.6,
+    "soil_moisture": 0.206
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 38.58,
+    "soil_moisture": 0.1367
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 38.06,
+    "soil_moisture": 0.131
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.8,
+    "et0_mm": 35.28,
+    "soil_moisture": 0.1522
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 2.0,
+    "et0_mm": 38.39,
+    "soil_moisture": 0.1435
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.1,
+    "et0_mm": 40.44,
+    "soil_moisture": 0.1289
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.0,
+    "et0_mm": 43.38,
+    "soil_moisture": 0.1266
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 48.71,
+    "soil_moisture": 0.1194
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 3.4,
+    "et0_mm": 48.43,
+    "soil_moisture": 0.1207
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.3,
+    "et0_mm": 53.89,
+    "soil_moisture": 0.1367
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.2,
+    "et0_mm": 56.6,
+    "soil_moisture": 0.1271
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 16.2,
+    "et0_mm": 49.47,
+    "soil_moisture": 0.1429
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 1.2,
+    "et0_mm": 56.61,
+    "soil_moisture": 0.1298
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.5,
+    "et0_mm": 62.24,
+    "soil_moisture": 0.1348
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 1.3,
+    "et0_mm": 63.4,
+    "soil_moisture": 0.13
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.4,
+    "et0_mm": 64.41,
+    "soil_moisture": 0.0955
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 9.9,
+    "et0_mm": 58.03,
+    "soil_moisture": 0.1194
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 2.2,
+    "et0_mm": 73.83,
+    "soil_moisture": 0.1404
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 13.4,
+    "et0_mm": 64.32,
+    "soil_moisture": 0.2035
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 26.2,
+    "et0_mm": 59.82,
+    "soil_moisture": 0.2365
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 12.3,
+    "et0_mm": 54.57,
+    "soil_moisture": 0.3272
+   }
+  ],
+  "plot-rompicherla-06": [
+   {
+    "date_start": "2025-01-11",
+    "rain_mm": 0.4,
+    "et0_mm": 37.86,
+    "soil_moisture": 0.1619
+   },
+   {
+    "date_start": "2025-01-21",
+    "rain_mm": 0.0,
+    "et0_mm": 40.54,
+    "soil_moisture": 0.1314
+   },
+   {
+    "date_start": "2025-01-31",
+    "rain_mm": 0.0,
+    "et0_mm": 48.93,
+    "soil_moisture": 0.1214
+   },
+   {
+    "date_start": "2025-02-10",
+    "rain_mm": 0.0,
+    "et0_mm": 51.34,
+    "soil_moisture": 0.1206
+   },
+   {
+    "date_start": "2025-02-20",
+    "rain_mm": 0.0,
+    "et0_mm": 53.88,
+    "soil_moisture": 0.1139
+   },
+   {
+    "date_start": "2025-03-02",
+    "rain_mm": 0.1,
+    "et0_mm": 60.8,
+    "soil_moisture": 0.1185
+   },
+   {
+    "date_start": "2025-03-12",
+    "rain_mm": 0.0,
+    "et0_mm": 63.97,
+    "soil_moisture": 0.1172
+   },
+   {
+    "date_start": "2025-03-22",
+    "rain_mm": 5.4,
+    "et0_mm": 59.13,
+    "soil_moisture": 0.1387
+   },
+   {
+    "date_start": "2025-04-01",
+    "rain_mm": 13.0,
+    "et0_mm": 52.64,
+    "soil_moisture": 0.1659
+   },
+   {
+    "date_start": "2025-04-11",
+    "rain_mm": 5.3,
+    "et0_mm": 58.39,
+    "soil_moisture": 0.134
+   },
+   {
+    "date_start": "2025-04-21",
+    "rain_mm": 1.2,
+    "et0_mm": 62.59,
+    "soil_moisture": 0.0972
+   },
+   {
+    "date_start": "2025-05-01",
+    "rain_mm": 12.3,
+    "et0_mm": 57.48,
+    "soil_moisture": 0.1213
+   },
+   {
+    "date_start": "2025-05-11",
+    "rain_mm": 45.5,
+    "et0_mm": 51.09,
+    "soil_moisture": 0.1898
+   },
+   {
+    "date_start": "2025-05-21",
+    "rain_mm": 36.6,
+    "et0_mm": 48.94,
+    "soil_moisture": 0.3497
+   },
+   {
+    "date_start": "2025-05-31",
+    "rain_mm": 0.9,
+    "et0_mm": 64.03,
+    "soil_moisture": 0.2418
+   },
+   {
+    "date_start": "2025-06-10",
+    "rain_mm": 30.6,
+    "et0_mm": 56.12,
+    "soil_moisture": 0.2106
+   },
+   {
+    "date_start": "2025-06-20",
+    "rain_mm": 34.2,
+    "et0_mm": 51.67,
+    "soil_moisture": 0.2377
+   },
+   {
+    "date_start": "2025-06-30",
+    "rain_mm": 21.4,
+    "et0_mm": 46.76,
+    "soil_moisture": 0.2843
+   },
+   {
+    "date_start": "2025-07-10",
+    "rain_mm": 13.9,
+    "et0_mm": 60.13,
+    "soil_moisture": 0.1844
+   },
+   {
+    "date_start": "2025-07-20",
+    "rain_mm": 57.0,
+    "et0_mm": 43.83,
+    "soil_moisture": 0.3291
+   },
+   {
+    "date_start": "2025-07-30",
+    "rain_mm": 17.7,
+    "et0_mm": 53.7,
+    "soil_moisture": 0.2186
+   },
+   {
+    "date_start": "2025-08-09",
+    "rain_mm": 117.9,
+    "et0_mm": 38.95,
+    "soil_moisture": 0.3412
+   },
+   {
+    "date_start": "2025-08-19",
+    "rain_mm": 64.8,
+    "et0_mm": 40.61,
+    "soil_moisture": 0.3444
+   },
+   {
+    "date_start": "2025-08-29",
+    "rain_mm": 30.3,
+    "et0_mm": 48.52,
+    "soil_moisture": 0.3119
+   },
+   {
+    "date_start": "2025-09-08",
+    "rain_mm": 23.2,
+    "et0_mm": 43.43,
+    "soil_moisture": 0.2309
+   },
+   {
+    "date_start": "2025-09-18",
+    "rain_mm": 34.0,
+    "et0_mm": 43.83,
+    "soil_moisture": 0.2707
+   },
+   {
+    "date_start": "2025-09-28",
+    "rain_mm": 37.9,
+    "et0_mm": 41.17,
+    "soil_moisture": 0.2516
+   },
+   {
+    "date_start": "2025-10-08",
+    "rain_mm": 36.7,
+    "et0_mm": 35.14,
+    "soil_moisture": 0.3315
+   },
+   {
+    "date_start": "2025-10-18",
+    "rain_mm": 80.9,
+    "et0_mm": 24.89,
+    "soil_moisture": 0.3577
+   },
+   {
+    "date_start": "2025-10-28",
+    "rain_mm": 117.5,
+    "et0_mm": 34.98,
+    "soil_moisture": 0.2738
+   },
+   {
+    "date_start": "2025-11-07",
+    "rain_mm": 0.0,
+    "et0_mm": 45.25,
+    "soil_moisture": 0.0785
+   },
+   {
+    "date_start": "2025-11-17",
+    "rain_mm": 1.6,
+    "et0_mm": 39.56,
+    "soil_moisture": 0.1186
+   },
+   {
+    "date_start": "2025-11-27",
+    "rain_mm": 13.6,
+    "et0_mm": 31.71,
+    "soil_moisture": 0.1587
+   },
+   {
+    "date_start": "2025-12-07",
+    "rain_mm": 0.0,
+    "et0_mm": 38.12,
+    "soil_moisture": 0.1239
+   },
+   {
+    "date_start": "2025-12-17",
+    "rain_mm": 0.0,
+    "et0_mm": 38.68,
+    "soil_moisture": 0.1273
+   },
+   {
+    "date_start": "2025-12-27",
+    "rain_mm": 0.2,
+    "et0_mm": 34.17,
+    "soil_moisture": 0.1539
+   },
+   {
+    "date_start": "2026-01-06",
+    "rain_mm": 0.3,
+    "et0_mm": 36.96,
+    "soil_moisture": 0.1424
+   },
+   {
+    "date_start": "2026-01-16",
+    "rain_mm": 0.0,
+    "et0_mm": 39.17,
+    "soil_moisture": 0.1262
+   },
+   {
+    "date_start": "2026-01-26",
+    "rain_mm": 0.0,
+    "et0_mm": 41.34,
+    "soil_moisture": 0.1282
+   },
+   {
+    "date_start": "2026-02-05",
+    "rain_mm": 0.0,
+    "et0_mm": 48.11,
+    "soil_moisture": 0.1208
+   },
+   {
+    "date_start": "2026-02-15",
+    "rain_mm": 11.0,
+    "et0_mm": 48.09,
+    "soil_moisture": 0.1275
+   },
+   {
+    "date_start": "2026-02-25",
+    "rain_mm": 0.1,
+    "et0_mm": 54.62,
+    "soil_moisture": 0.1389
+   },
+   {
+    "date_start": "2026-03-07",
+    "rain_mm": 0.3,
+    "et0_mm": 56.42,
+    "soil_moisture": 0.1141
+   },
+   {
+    "date_start": "2026-03-17",
+    "rain_mm": 15.0,
+    "et0_mm": 48.53,
+    "soil_moisture": 0.1635
+   },
+   {
+    "date_start": "2026-03-27",
+    "rain_mm": 0.4,
+    "et0_mm": 55.92,
+    "soil_moisture": 0.1488
+   },
+   {
+    "date_start": "2026-04-06",
+    "rain_mm": 0.4,
+    "et0_mm": 60.61,
+    "soil_moisture": 0.1407
+   },
+   {
+    "date_start": "2026-04-16",
+    "rain_mm": 1.6,
+    "et0_mm": 60.38,
+    "soil_moisture": 0.1369
+   },
+   {
+    "date_start": "2026-04-26",
+    "rain_mm": 0.0,
+    "et0_mm": 62.61,
+    "soil_moisture": 0.1264
+   },
+   {
+    "date_start": "2026-05-06",
+    "rain_mm": 5.7,
+    "et0_mm": 57.98,
+    "soil_moisture": 0.123
+   },
+   {
+    "date_start": "2026-05-16",
+    "rain_mm": 2.8,
+    "et0_mm": 73.24,
+    "soil_moisture": 0.1526
+   },
+   {
+    "date_start": "2026-05-26",
+    "rain_mm": 9.5,
+    "et0_mm": 64.97,
+    "soil_moisture": 0.2305
+   },
+   {
+    "date_start": "2026-06-05",
+    "rain_mm": 25.5,
+    "et0_mm": 58.6,
+    "soil_moisture": 0.2983
+   },
+   {
+    "date_start": "2026-06-15",
+    "rain_mm": 13.0,
+    "et0_mm": 54.77,
+    "soil_moisture": 0.3629
+   }
+  ]
+ }
+}

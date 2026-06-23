@@ -1,0 +1,114 @@
+{
+ "fetched_at": "2026-07-04T18:02:16.194068+00:00",
+ "source": "ISRIC SoilGrids v2.0 (0-15cm mean)",
+ "plots": {
+  "plot-raptadu-01": {
+   "ph": 7.0,
+   "clay_pct": 30.7,
+   "sand_pct": 46.45,
+   "soc_g_kg": 12.8,
+   "texture": "clay loam",
+   "lon": 77.483,
+   "lat": 14.548
+  },
+  "plot-garladinne-02": {
+   "ph": 7.05,
+   "clay_pct": 31.95,
+   "sand_pct": 39.75,
+   "soc_g_kg": 28.65,
+   "texture": "clay loam",
+   "lon": 77.531,
+   "lat": 14.777
+  },
+  "plot-singanamala-03": {
+   "ph": 7.1,
+   "clay_pct": 31.2,
+   "sand_pct": 42.9,
+   "soc_g_kg": 13.95,
+   "texture": "clay loam",
+   "lon": 77.753,
+   "lat": 14.7815
+  },
+  "plot-kalyandurg-04": {
+   "ph": 6.95,
+   "clay_pct": 32.95,
+   "sand_pct": 45.45,
+   "soc_g_kg": 34.65,
+   "texture": "clay loam",
+   "lon": 77.1435,
+   "lat": 14.5665
+  },
+  "plot-narpala-05": {
+   "ph": 7.1,
+   "clay_pct": 35.3,
+   "sand_pct": 37.4,
+   "soc_g_kg": 14.75,
+   "texture": "clay",
+   "lon": 77.718,
+   "lat": 14.748
+  },
+  "plot-atmakur-06": {
+   "ph": 6.9,
+   "clay_pct": 30.55,
+   "sand_pct": 46.0,
+   "soc_g_kg": 14.95,
+   "texture": "clay loam",
+   "lon": 77.356,
+   "lat": 14.628
+  },
+  "plot-narasaraopet-01": {
+   "ph": 6.6,
+   "clay_pct": 29.05,
+   "sand_pct": 39.7,
+   "soc_g_kg": 15.0,
+   "texture": "clay loam",
+   "lon": 80.0549,
+   "lat": 16.0757
+  },
+  "plot-chilakaluripet-02": {
+   "ph": 6.6,
+   "clay_pct": 32.9,
+   "sand_pct": 36.3,
+   "soc_g_kg": 29.25,
+   "texture": "clay loam",
+   "lon": 80.1259,
+   "lat": 16.1057
+  },
+  "plot-sattenapalle-03": {
+   "ph": 6.55,
+   "clay_pct": 30.5,
+   "sand_pct": 38.7,
+   "soc_g_kg": 17.8,
+   "texture": "clay loam",
+   "lon": 80.1759,
+   "lat": 16.3657
+  },
+  "plot-vinukonda-04": {
+   "ph": 7.0,
+   "clay_pct": 33.25,
+   "sand_pct": 39.65,
+   "soc_g_kg": 28.05,
+   "texture": "clay loam",
+   "lon": 79.7659,
+   "lat": 16.0307
+  },
+  "plot-nadendla-05": {
+   "ph": 6.7,
+   "clay_pct": 32.8,
+   "sand_pct": 38.25,
+   "soc_g_kg": 30.0,
+   "texture": "clay loam",
+   "lon": 80.1059,
+   "lat": 16.1807
+  },
+  "plot-rompicherla-06": {
+   "ph": 6.6,
+   "clay_pct": 29.25,
+   "sand_pct": 44.15,
+   "soc_g_kg": 16.15,
+   "texture": "clay loam",
+   "lon": 79.9559,
+   "lat": 16.2837
+  }
+ }
+}
