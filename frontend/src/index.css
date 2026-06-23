@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-50 font-sans text-stone-800 antialiased;
+    background-image: radial-gradient(80rem 40rem at 100% -10%, #eaf3ec 0, transparent 60%),
+      radial-gradient(60rem 30rem at -10% 0%, #f2f8f4 0, transparent 55%);
+    background-attachment: fixed;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+  /* Polished, consistent focus + interaction feedback across every control. */
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    @apply border-brand-500 outline-none ring-2 ring-brand-500/25;
+  }
+  button {
+    @apply transition-colors;
+  }
+  button:focus-visible {
+    @apply outline-none ring-2 ring-brand-500/40 ring-offset-1;
+  }
+  ::selection {
+    @apply bg-brand-200/60;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-stone-200/70 bg-white/95 p-4 shadow-card;
+  }
+  .card-hover {
+    @apply transition duration-200 hover:-translate-y-0.5 hover:shadow-lift;
+  }
+  .card-title {
+    @apply font-display font-semibold tracking-tight text-stone-900;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg bg-brand-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-brand-700 active:scale-95 disabled:opacity-50;
+  }
+  .pill {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+}
+
+/* Live mic "equalizer" bars while recording a voice question. */
+@keyframes eq {
+  0%,
+  100% {
+    transform: scaleY(0.25);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+.eq-bar {
+  transform-origin: bottom;
+  animation: eq 0.8s ease-in-out infinite;
+}
+
+/* Chat / SMS bubble entrance. */
+@keyframes msgIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.msg-in {
+  animation: msgIn 0.22s ease-out;
+}
+
+/* Typing indicator dots. */
+@keyframes typing {
+  0%,
+  60%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+}
+.typing-dot {
+  animation: typing 1.2s infinite;
+}
+
+/* Skeleton shimmer for loading states. */
+@keyframes shimmer {
+  100% {
+    background-position: -200% 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, #f1efec 25%, #e7e5e4 37%, #f1efec 63%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease infinite;
+}
