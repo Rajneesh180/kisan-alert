@@ -1,0 +1,98 @@
+[
+  {
+    "crop": "groundnut",
+    "topic": "irrigation",
+    "text": "Groundnut irrigation (TNAU): irrigate at flowering (30-35 DAS) and pegging (50-55 DAS) stages which are critical moisture-sensitive periods. Total water requirement is 450-550 mm. In Anantapur dryland conditions most kharif groundnut is rainfed; protective irrigation of 40-50 mm during prolonged dry spells (>10 days without rain) during flowering significantly improves pod filling.",
+    "source": "TNAU Agritech Portal; ICAR-DGR Junagadh"
+  },
+  {
+    "crop": "groundnut",
+    "topic": "fertilizer",
+    "text": "Groundnut fertilizer (ICAR-DGR): apply 20 kg N, 40 kg P2O5, 50 kg K2O per hectare as basal dose. Being a legume, groundnut fixes atmospheric nitrogen through Rhizobium so applied N is low. Apply gypsum at 400 kg/ha at pegging (45-50 DAS) for calcium supply to developing pods. Soil test recommendation: if organic carbon is below 0.50% apply 5 t/ha farmyard manure two weeks before sowing.",
+    "source": "ICAR-DGR Groundnut Package of Practices; TNAU Agritech"
+  },
+  {
+    "crop": "groundnut",
+    "topic": "pest",
+    "text": "Groundnut major pests in AP: leaf miner (Aproaerema modicella) — whitish blotches on leaflets, severe in July-August; spray quinalphos 25 EC at 2 ml/L. Thrips cause leaf curling — spray dimethoate 30 EC at 1.5 ml/L. Spodoptera litura (tobacco caterpillar) — apply neem oil 5% or chlorantraniliprole. Red hairy caterpillar: collect and destroy egg masses early.",
+    "source": "ICAR-DGR; AP State Dept of Agriculture"
+  },
+  {
+    "crop": "groundnut",
+    "topic": "disease",
+    "text": "Groundnut diseases in Anantapur: early leaf spot (Cercospora arachidicola) appears as brown circular spots on upper leaf surface; late leaf spot (Phaeoisariopsis personata) shows dark brown spots on lower surface. Both cause defoliation. Spray mancozeb 75 WP at 2.5 g/L at 30 and 45 DAS. Collar rot (Aspergillus niger): seed treat with carbendazim 2 g/kg. Stem rot: avoid waterlogging, apply Trichoderma viride to soil.",
+    "source": "ICAR-DGR Junagadh; TNAU Agritech Portal"
+  },
+  {
+    "crop": "paddy",
+    "topic": "irrigation",
+    "text": "Paddy water management (TNAU): maintain 2-5 cm standing water from transplanting to panicle initiation. Drain field 7-10 days before harvest. Alternate wetting and drying (AWD) saves 20-25% water: let field dry until hairline cracks appear, then re-irrigate. Critical stages: tillering, panicle initiation, flowering. Total water need 1000-1250 mm. In Palnadu canal-irrigated tracts follow the irrigation schedule of the local water users association.",
+    "source": "TNAU Agritech; ICAR-IIRR Hyderabad"
+  },
+  {
+    "crop": "paddy",
+    "topic": "fertilizer",
+    "text": "Paddy fertilizer for medium-duration varieties in AP (ICAR-IIRR): 100 kg N, 50 kg P2O5, 50 kg K2O per hectare. Apply full P and K as basal, split N into three: 50% basal, 25% at active tillering (21-25 DAT), 25% at panicle initiation. If soil organic carbon is low (<0.50%) apply 10 t/ha farmyard manure and increase N by 10%. Use zinc sulphate 25 kg/ha as basal in zinc-deficient soils (pH >7).",
+    "source": "ICAR-IIRR Rice Knowledge Management Portal"
+  },
+  {
+    "crop": "paddy",
+    "topic": "pest",
+    "text": "Paddy stem borer (Scirpophaga incertulas): dead heart at vegetative stage, white ear at reproductive stage. Apply cartap hydrochloride granules to standing water. Brown planthopper (BPH): drain water, spray buprofezin. Leaf folder: spray chlorantraniliprole. Install pheromone traps for yellow stem borer at 5/ha. ETL for stem borer: 5% dead hearts or 2 egg masses/m2.",
+    "source": "ICAR-IIRR; TNAU Crop Protection Guide"
+  },
+  {
+    "crop": "cotton",
+    "topic": "irrigation",
+    "text": "Cotton irrigation (ICAR-CICR): critical stages are squaring (45-50 DAS), flowering (60-70 DAS), and boll development (80-100 DAS). Total water need 700-800 mm for Bt cotton. In Palnadu rainfed tracts, protective irrigation at flowering increases yield by 15-20%. Avoid waterlogging — cotton is sensitive to excess moisture causing root rot.",
+    "source": "ICAR-CICR Nagpur; TNAU Agritech"
+  },
+  {
+    "crop": "cotton",
+    "topic": "pest",
+    "text": "Cotton bollworm (Helicoverpa armigera): most damaging pest in AP. ETL: 1 larva/plant at squaring. Spray HaNPV (250 LE/ha) or flubendiamide 480 SC at 0.1 ml/L. Whitefly: yellow sticky traps at 12/ha, spray neem oil 1500 ppm. Pink bollworm: use pheromone traps, destroy crop residues after harvest. Maintain 5% refuge rows with non-Bt cotton as per GEAC norms.",
+    "source": "ICAR-CICR; AP State IPM Guidelines"
+  },
+  {
+    "crop": "cotton",
+    "topic": "fertilizer",
+    "text": "Cotton fertilizer for Bt hybrids (ICAR-CICR): 120 kg N, 60 kg P2O5, 60 kg K2O per hectare. Split N: 25% basal, 25% at squaring, 25% at flowering, 25% at boll development. Apply MgSO4 at 25 kg/ha if Mg deficiency symptoms appear (interveinal chlorosis on older leaves). Foliar spray of 2% DAP at peak flowering improves boll retention.",
+    "source": "ICAR-CICR Nagpur Cotton Package"
+  },
+  {
+    "crop": "chilli",
+    "topic": "disease",
+    "text": "Chilli leaf curl complex (AP): caused by whitefly-transmitted begomovirus. Symptoms: upward curling of leaves, stunting, reduced fruit set. Management: control whitefly vector with imidacloprid seed treatment (5 g/kg), yellow sticky traps, neem oil sprays. Remove and destroy infected plants. Anthracnose (Colletotrichum capsici) on fruits: spray mancozeb + carbendazim at fruit formation.",
+    "source": "ICAR-IIHR; AP Horticulture Dept"
+  },
+  {
+    "crop": "sorghum",
+    "topic": "irrigation",
+    "text": "Sorghum is drought-tolerant but responds to irrigation at boot (flag leaf) and flowering stages. Total water need 400-450 mm. In Anantapur dryland conditions kharif sorghum is typically rainfed. A single protective irrigation of 50 mm at flowering (55-60 DAS) increases grain yield by 20-30% in dry spells. Avoid irrigation during grain hardening to prevent lodging.",
+    "source": "TNAU Agritech; ICAR-IIMR Hyderabad"
+  },
+  {
+    "crop": "pearl_millet",
+    "topic": "irrigation",
+    "text": "Pearl millet water management: most drought-tolerant among cereals, suited for Anantapur's 520 mm annual rainfall. Total need 300-350 mm. In severe dry spell (>12 days), one life-saving irrigation of 30-40 mm at boot stage (30-35 DAS) prevents panicle abortion. Excess water causes downy mildew — ensure drainage in heavy rains.",
+    "source": "ICAR-AICPMIP; TNAU Agritech"
+  },
+  {
+    "crop": null,
+    "topic": "soil_health",
+    "text": "Soil organic carbon management (Soil Health Card scheme): soils with OC below 0.50% are classified as low and need organic matter buildup. Apply 5-10 tonnes farmyard manure or compost per hectare annually. Green manuring with dhaincha (Sesbania) or sunhemp for 45 days before kharif sowing adds 20-25 kg N/ha equivalent and improves soil structure. Verify OC with a free Soil Health Card from your nearest agriculture office.",
+    "source": "Soil Health Card scheme; ICAR-NBSS&LUP"
+  },
+  {
+    "crop": null,
+    "topic": "water_harvesting",
+    "text": "Farm pond and water harvesting for Anantapur dryland: construct a lined farm pond (10x10x3m) to capture monsoon runoff for protective irrigation. One pond can irrigate 0.5-1.0 ha for one critical irrigation. AP government subsidy available under PMKSY micro-irrigation scheme. Contour bunding reduces runoff by 30-40% and recharges groundwater.",
+    "source": "AP State Watershed Development Agency; PMKSY Guidelines"
+  },
+  {
+    "crop": null,
+    "topic": "market",
+    "text": "Andhra Pradesh agricultural marketing: farmers can check daily mandi prices at agmarknet.gov.in or through the AP e-Crop portal. Minimum Support Price (MSP) for kharif 2026: groundnut Rs 6,377/quintal, paddy Rs 2,300/quintal. Contact the nearest Rythu Seva Kendra (RSK) for procurement registration and crop insurance under PMFBY.",
+    "source": "Commission for Agricultural Costs and Prices (CACP); AP Agriculture Dept"
+  }
+]
