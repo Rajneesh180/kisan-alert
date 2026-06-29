@@ -1,0 +1,17 @@
+crop,label_en,label_te,label_hi,season,duration_days,water_need_mm,kc_mid,soil_ph_min,soil_ph_max,soil_texture,min_temp_c,max_temp_c,rainfed_ok,groundwater_need,n_kg_ha,p_kg_ha,k_kg_ha,source
+groundnut,Groundnut,వేరుశనగ,मूंगफली,kharif,110,550,1.15,6.0,7.5,sandy loam,25,32,yes,low,20,40,50,TNAU Agritech; FAO-56 Table 12
+pigeonpea,Pigeonpea (Redgram),కంది,अरहर,kharif,160,400,1.10,6.5,7.5,loam,20,32,yes,low,20,50,0,ICAR-IIPR; FAO-56 Table 12
+chickpea,Chickpea (Bengal gram),శనగ,चना,rabi,105,300,1.00,6.0,8.0,black/loam,15,28,yes,low,20,50,0,ICAR-IIPR; FAO-56 Table 12
+pearl_millet,Pearl millet (Bajra),సజ్జ,बाजरा,kharif,80,300,1.00,6.5,7.8,sandy loam,25,35,yes,low,60,30,30,TNAU Agritech; FAO-56 Table 12
+sorghum,Sorghum (Jowar),జొన్న,ज्वार,both,105,450,1.05,6.0,8.5,loam/black,22,32,yes,low,80,40,40,TNAU Agritech; FAO-56 Table 12
+foxtail_millet,Foxtail millet,కొర్రలు,कंगनी,kharif,85,320,0.95,5.5,7.5,loam,20,32,yes,low,40,20,20,TNAU Agritech
+maize,Maize,మొక్కజొన్న,मक्का,both,110,550,1.20,5.5,7.5,loam,21,30,partial,medium,120,60,40,TNAU Agritech; FAO-56 Table 12
+paddy,Paddy (Rice),వరి,धान,both,135,1250,1.20,5.5,7.0,clay,22,32,no,high,100,50,50,TNAU Agritech; FAO-56 Table 12
+cotton,Cotton,పత్తి,कपास,kharif,170,800,1.18,6.0,8.0,black,24,34,partial,medium,120,60,60,ICAR-CICR; FAO-56 Table 12
+chilli,Chilli,మిరప,मिर्च,both,150,750,1.05,6.0,7.5,loam,20,32,no,high,120,60,60,TNAU Agritech
+sunflower,Sunflower,పొద్దుతిరుగుడు,सूरजमुखी,both,95,450,1.10,6.0,8.0,loam,20,30,partial,medium,60,40,40,TNAU Agritech; FAO-56 Table 12
+castor,Castor,ఆముదం,अरंडी,kharif,150,450,1.15,6.0,7.5,sandy loam,22,34,yes,low,40,40,20,ICAR-IIOR
+tomato,Tomato,టమాటా,टमाटर,both,120,650,1.15,6.0,7.0,loam,18,30,no,high,100,50,50,TNAU Agritech; FAO-56 Table 12
+onion,Onion,ఉల్లిపాయ,प्याज,rabi,120,450,1.00,6.0,7.5,loam,15,28,no,high,100,50,80,TNAU Agritech; FAO-56 Table 12
+green_gram,Green gram (Moong),పెసలు,मूंग,both,70,270,1.00,6.2,7.5,loam,22,32,yes,low,20,40,0,ICAR-IIPR
+horse_gram,Horse gram,ఉలవలు,कुलथी,late_kharif,110,250,0.85,5.8,7.8,sandy loam,20,32,yes,low,20,40,0,TNAU Agritech

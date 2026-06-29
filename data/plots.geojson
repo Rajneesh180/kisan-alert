@@ -1,0 +1,140 @@
+{
+  "type": "FeatureCollection",
+  "note": "Field polygons drawn over visibly cultivated farmland in Anantapur district, AP (satellite basemap). Farmer names are fictional demo personas; locations and satellite data are real.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-raptadu-01", "farmer": "Ramanna", "village": "Raptadu", "mandal": "Raptadu",
+        "crop_current": "groundnut", "area_ha": 1.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.4821, 14.5473], [77.4839, 14.5473], [77.4839, 14.5487], [77.4821, 14.5487], [77.4821, 14.5473]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-garladinne-02", "farmer": "Lakshmamma", "village": "Garladinne", "mandal": "Garladinne",
+        "crop_current": "pigeonpea", "area_ha": 0.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.5301, 14.7763], [77.5319, 14.7763], [77.5319, 14.7777], [77.5301, 14.7777], [77.5301, 14.7763]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-singanamala-03", "farmer": "Venkatesh", "village": "Singanamala", "mandal": "Singanamala",
+        "crop_current": "paddy", "area_ha": 1.6, "irrigation": "tank-fed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.7521, 14.7808], [77.7539, 14.7808], [77.7539, 14.7822], [77.7521, 14.7822], [77.7521, 14.7808]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-kalyandurg-04", "farmer": "Narasimha", "village": "Kalyandurg", "mandal": "Kalyandurg",
+        "crop_current": "pearl_millet", "area_ha": 1.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.1426, 14.5658], [77.1444, 14.5658], [77.1444, 14.5672], [77.1426, 14.5672], [77.1426, 14.5658]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-narpala-05", "farmer": "Saraswathi", "village": "Narpala", "mandal": "Narpala",
+        "crop_current": "chilli", "area_ha": 0.8, "irrigation": "borewell"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.7171, 14.7473], [77.7189, 14.7473], [77.7189, 14.7487], [77.7171, 14.7487], [77.7171, 14.7473]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-atmakur-06", "farmer": "Adinarayana", "village": "Atmakur", "mandal": "Atmakur",
+        "crop_current": "sorghum", "area_ha": 1.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.3551, 14.6273], [77.3569, 14.6273], [77.3569, 14.6287], [77.3551, 14.6287], [77.3551, 14.6273]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-narasaraopet-01", "region": "narasaraopet", "farmer": "Koteswara Rao",
+        "village": "Narasaraopet", "mandal": "Narasaraopet", "crop_current": "cotton", "area_ha": 1.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.0540, 16.0750], [80.0558, 16.0750], [80.0558, 16.0764], [80.0540, 16.0764], [80.0540, 16.0750]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-chilakaluripet-02", "region": "narasaraopet", "farmer": "Nagamani",
+        "village": "Chilakaluripet", "mandal": "Chilakaluripet", "crop_current": "chilli",
+        "area_ha": 0.7, "irrigation": "borewell"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.1250, 16.1050], [80.1268, 16.1050], [80.1268, 16.1064], [80.1250, 16.1064], [80.1250, 16.1050]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-sattenapalle-03", "region": "narasaraopet", "farmer": "Srinivasulu",
+        "village": "Sattenapalle", "mandal": "Sattenapalle", "crop_current": "paddy",
+        "area_ha": 1.8, "irrigation": "canal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.1750, 16.3650], [80.1768, 16.3650], [80.1768, 16.3664], [80.1750, 16.3664], [80.1750, 16.3650]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-vinukonda-04", "region": "narasaraopet", "farmer": "Yellamanda",
+        "village": "Vinukonda", "mandal": "Vinukonda", "crop_current": "pigeonpea", "area_ha": 1.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.7650, 16.0300], [79.7668, 16.0300], [79.7668, 16.0314], [79.7650, 16.0314], [79.7650, 16.0300]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-nadendla-05", "region": "narasaraopet", "farmer": "Ramanjaneyulu",
+        "village": "Nadendla", "mandal": "Nadendla", "crop_current": "maize", "area_ha": 1.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.1050, 16.1800], [80.1068, 16.1800], [80.1068, 16.1814], [80.1050, 16.1814], [80.1050, 16.1800]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plot-rompicherla-06", "region": "narasaraopet", "farmer": "Venkateswarlu",
+        "village": "Rompicherla", "mandal": "Rompicherla", "crop_current": "cotton", "area_ha": 1.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.9550, 16.2830], [79.9568, 16.2830], [79.9568, 16.2844], [79.9550, 16.2844], [79.9550, 16.2830]]]
+      }
+    }
+  ]
+}
