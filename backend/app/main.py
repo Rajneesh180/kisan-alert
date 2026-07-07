@@ -47,7 +47,7 @@ def _client_ip(request: Request) -> str:
     return request.client.host if request.client else "unknown"
 
 
-UPLOADS_DIR = settings.data_dir / "uploads"
+UPLOADS_DIR = settings.uploads_dir
 UPLOADS_DIR.mkdir(parents=True, exist_ok=True)  # must exist before the static mount below
 
 

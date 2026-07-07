@@ -10,6 +10,10 @@ class Settings(BaseSettings):
     gemini_model: str = "gemini-2.5-flash"
     db_path: str = str(REPO_ROOT / "kisan.db")
     data_dir: Path = REPO_ROOT / "data"
+    # Uploaded photos and the SQLite file are the only runtime writes. On a
+    # read-only container image (Cloud Run, HF Spaces) point both at /tmp via
+    # DB_PATH and UPLOADS_DIR; locally they live under the repo.
+    uploads_dir: Path = REPO_ROOT / "data" / "uploads"
 
     # Twilio WhatsApp/SMS sandbox (optional — the in-app simulator works without it)
     twilio_account_sid: str = ""

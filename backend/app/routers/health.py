@@ -57,7 +57,7 @@ async def create_health_log(
         data = await photo.read()
         if len(data) > MAX_PHOTO_BYTES:
             raise HTTPException(413, "photo too large (8 MB max)")
-        uploads = settings.data_dir / "uploads"
+        uploads = settings.uploads_dir
         uploads.mkdir(parents=True, exist_ok=True)
         suffix = (photo.filename or "photo.jpg").rsplit(".", 1)[-1][:4] or "jpg"
         media_path = f"{uuid.uuid4().hex}.{suffix}"
