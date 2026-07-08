@@ -9,6 +9,10 @@ Every number a farmer sees comes from a deterministic agronomy engine grounded
 in real satellite and climate data; Gemini only handles language, speech and
 vision, so the advice can't hallucinate figures.
 
+**Live demo:** https://rajneeshrehsaan-kisan-alert.hf.space
+
+![Kisan Alert farmer dashboard](docs/screenshot-dashboard.png)
+
 ## How the AI works (and where it does real work)
 
 - **Crop-stress early warning (gradient-boosted model).** Predicts the next
