@@ -186,6 +186,84 @@ export const STR: Record<string, Entry> = {
     te: "నిజమైన పొలాలపై నమూనా రైతు వివరాలు — ఉపగ్రహ, నేల, వాతావరణ డేటా నిజమైనవి.",
     hi: "वास्तविक खेतों पर नमूना किसान प्रोफ़ाइल — उपग्रह, मिट्टी व जलवायु डेटा वास्तविक है.",
   },
+
+  // Per-plot explainability (local drivers + faithful flag reason)
+  ndviWhy: {
+    en: "What's shaping this outlook",
+    te: "ఈ అంచనాను ప్రభావితం చేస్తున్నవి",
+    hi: "इस अनुमान को क्या प्रभावित कर रहा है",
+  },
+  ndviWhyNote: {
+    en: "Effect on the 10-day NDVI outlook, vs a typical field",
+    te: "సాధారణ పొలంతో పోలిస్తే 10-రోజుల NDVI అంచనాపై ప్రభావం",
+    hi: "एक सामान्य खेत की तुलना में 10-दिन के NDVI अनुमान पर प्रभाव",
+  },
+  stressReasonDrop: {
+    en: "Flagged: 10-day outlook falls sharply",
+    te: "గుర్తింపు: 10-రోజుల అంచనా బాగా తగ్గుతోంది",
+    hi: "चिह्नित: 10-दिन का अनुमान तेज़ी से गिर रहा है",
+  },
+  stressReasonSeasonal: {
+    en: "Flagged: below the same window last year",
+    te: "గుర్తింపు: గత ఏడాది ఇదే సమయం కంటే తక్కువ",
+    hi: "चिह्नित: पिछले साल इसी अवधि से नीचे",
+  },
+  stressReasonBoth: {
+    en: "Flagged: falling, and below last year's level",
+    te: "గుర్తింపు: తగ్గుతోంది, గత ఏడాది కంటే తక్కువ",
+    hi: "चिह्नित: गिर रहा है, और पिछले साल से नीचे",
+  },
+  below: { en: "below typical", te: "సాధారణం కంటే తక్కువ", hi: "सामान्य से कम" },
+  above: { en: "above typical", te: "సాధారణం కంటే ఎక్కువ", hi: "सामान्य से अधिक" },
+
+  // Model card
+  modelCard: { en: "Model card", te: "మోడల్ కార్డు", hi: "मॉडल कार्ड" },
+  mcTitle: { en: "Crop-stress model", te: "పంట ఒత్తిడి మోడల్", hi: "फसल तनाव मॉडल" },
+  mcTask: {
+    en: "Predicts a plot's next 10-day NDVI (canopy greenness) from its current vegetation and water-balance state, to flag crop stress before it is visible.",
+    te: "పొలం ప్రస్తుత వృక్షసంపద, నీటి సమతుల్య స్థితి ఆధారంగా తర్వాతి 10-రోజుల NDVI (పచ్చదనం) అంచనా వేసి, ఒత్తిడి కనిపించకముందే గుర్తిస్తుంది.",
+    hi: "खेत की मौजूदा वनस्पति और जल-संतुलन स्थिति से अगले 10-दिन का NDVI (हरियाली) अनुमानित करता है, ताकि फसल तनाव दिखने से पहले पकड़ा जा सके।",
+  },
+  mcPerf: { en: "Performance", te: "పనితీరు", hi: "प्रदर्शन" },
+  mcRmseModel: { en: "RMSE · model", te: "RMSE · మోడల్", hi: "RMSE · मॉडल" },
+  mcRmseBase: { en: "RMSE · persistence", te: "RMSE · పెర్సిస్టెన్స్", hi: "RMSE · पर्सिस्टेंस" },
+  mcWindows: { en: "training windows", te: "శిక్షణ విండోలు", hi: "प्रशिक्षण विंडो" },
+  mcHorizon: { en: "horizon (days)", te: "వ్యవధి (రోజులు)", hi: "क्षितिज (दिन)" },
+  mcTest: { en: "How it's tested", te: "ఎలా పరీక్షించారు", hi: "इसे कैसे परखा गया" },
+  mcTestBody: {
+    en: "Leave-one-plot-out cross-validation: the model never sees the plot it is scored on, so the skill is what you'd get on an unseen field — not an optimistic fit. It is measured against a persistence baseline (next = last observed), which is hard to beat on autocorrelated NDVI.",
+    te: "లీవ్-వన్-ప్లాట్-అవుట్ క్రాస్-వేలిడేషన్: మోడల్ తను స్కోర్ అయ్యే పొలాన్ని చూడదు, కాబట్టి నైపుణ్యం కొత్త పొలంపై వచ్చేదే. పెర్సిస్టెన్స్ బేస్‌లైన్ (తర్వాత = చివరిది)తో పోల్చబడింది.",
+    hi: "लीव-वन-प्लॉट-आउट क्रॉस-वैलिडेशन: मॉडल जिस खेत पर परखा जाता है उसे नहीं देखता, इसलिए स्किल अनदेखे खेत की है। इसे पर्सिस्टेंस बेसलाइन (अगला = पिछला) से मापा गया है।",
+  },
+  mcInputs: { en: "Inputs — 9 features", te: "ఇన్‌పుట్‌లు — 9 ఫీచర్లు", hi: "इनपुट — 9 फ़ीचर" },
+  mcInputsNote: {
+    en: "Tinted = most influential (permutation importance)",
+    te: "రంగు వేసినవి = అత్యంత ప్రభావవంతం",
+    hi: "रंगीन = सबसे प्रभावशाली",
+  },
+  mcLimits: { en: "Limitations", te: "పరిమితులు", hi: "सीमाएँ" },
+  mcLimit1: {
+    en: "Small data — 12 plots over ~18 months; skill will tighten as more plots and seasons are added.",
+    te: "తక్కువ డేటా — ~18 నెలల్లో 12 పొలాలు; ఎక్కువ పొలాలు, సీజన్లతో నైపుణ్యం మెరుగవుతుంది.",
+    hi: "कम डेटा — ~18 महीनों में 12 खेत; अधिक खेत और मौसम जुड़ने पर स्किल बेहतर होगी।",
+  },
+  mcLimit2: {
+    en: "A 10-day early warning, not a yield forecast — it points to fields that need a closer look.",
+    te: "10-రోజుల ముందస్తు హెచ్చరిక, దిగుబడి అంచనా కాదు — దగ్గరగా చూడాల్సిన పొలాలను సూచిస్తుంది.",
+    hi: "10-दिन की पूर्व-चेतावनी, उपज पूर्वानुमान नहीं — यह करीब से देखने योग्य खेतों की ओर इशारा करता है।",
+  },
+  mcLimit3: {
+    en: "Guidance, not a substitute for an agronomist or a Rythu Seva Kendra visit.",
+    te: "మార్గదర్శకత్వం, వ్యవసాయ నిపుణుడు లేదా రైతు సేవా కేంద్రానికి ప్రత్యామ్నాయం కాదు.",
+    hi: "मार्गदर्शन, कृषि विशेषज्ञ या रायथु सेवा केंद्र का विकल्प नहीं।",
+  },
+  mcData: { en: "Trained on", te: "శిక్షణ డేటా", hi: "प्रशिक्षण डेटा" },
+  mcDataBody: {
+    en: "Sentinel-2 NDVI/NDMI, Open-Meteo ERA5 rainfall/ET₀/soil-moisture, ISRIC SoilGrids — 10-day windows, retrained at each boot from the committed data.",
+    te: "Sentinel-2 NDVI/NDMI, Open-Meteo ERA5 వర్షం/ET₀/నేల-తేమ, ISRIC SoilGrids — 10-రోజుల విండోలు, ప్రతి బూట్‌లో మళ్ళీ శిక్షణ.",
+    hi: "Sentinel-2 NDVI/NDMI, Open-Meteo ERA5 वर्षा/ET₀/मृदा-नमी, ISRIC SoilGrids — 10-दिन विंडो, हर बूट पर पुनः प्रशिक्षित।",
+  },
+  close: { en: "Close", te: "మూసివేయి", hi: "बंद करें" },
 };
 
 export function t(key: string, lang: Lang): string {

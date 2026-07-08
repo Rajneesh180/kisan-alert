@@ -31,6 +31,30 @@ def test_model_beats_persistence_baseline():
         assert m["top_drivers"]  # interpretable leading indicators reported
 
 
+def test_forecast_reports_local_drivers():
+    """Each forecast explains itself: per-plot drivers, ranked by absolute effect,
+    each carrying the plot value, the typical value it was occluded against, and a
+    signed NDVI effect. Ranking and sign are the contract the UI depends on."""
+    with TestClient(app) as client:
+        d = client.get("/api/forecast/ndvi", params={"plot_id": PLOT}).json()
+        assert "stress_reason" in d
+        drivers = d["drivers"]
+        assert drivers and len(drivers) <= 3
+        for dr in drivers:
+            assert {"feature", "label", "value", "typical", "effect", "direction"} <= dr.keys()
+            assert dr["direction"] == ("below" if dr["value"] < dr["typical"] else "above")
+        effects = [abs(dr["effect"]) for dr in drivers]
+        assert effects == sorted(effects, reverse=True)
+
+
+def test_eval_exposes_model_card_fields():
+    with TestClient(app) as client:
+        m = client.get("/api/forecast/ndvi/eval").json()
+        assert m["horizon_days"] == 10
+        assert len(m["features"]) == 9
+        assert all({"feature", "label"} <= f.keys() for f in m["features"])
+
+
 def test_forecast_unknown_plot_404():
     with TestClient(app) as client:
         assert client.get("/api/forecast/ndvi", params={"plot_id": "nope"}).status_code == 404

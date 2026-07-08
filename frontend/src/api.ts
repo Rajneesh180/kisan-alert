@@ -115,6 +115,15 @@ export interface FertilizerPlan {
   notes: string[];
 }
 
+export interface NdviDriver {
+  feature: string;
+  label: string;
+  value: number;
+  typical: number;
+  effect: number;
+  direction: "below" | "above";
+}
+
 export interface NdviForecast {
   plot_id: string;
   current_date: string;
@@ -124,16 +133,20 @@ export interface NdviForecast {
   delta: number;
   baseline_ndvi: number | null;
   stress_warning: boolean;
+  stress_reason: "drop" | "seasonal" | "both" | null;
+  drivers: NdviDriver[];
 }
 
 export interface NdviEval {
   model: string;
   cv: string;
+  horizon_days: number;
   model_rmse: number;
   persistence_rmse: number;
   skill_vs_persistence_pct: number;
   n_samples: number;
   n_plots: number;
+  features: { feature: string; label: string }[];
   top_drivers: { feature: string; label: string }[];
 }
 

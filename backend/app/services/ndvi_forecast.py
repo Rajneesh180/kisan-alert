@@ -31,6 +31,8 @@ from ..models import IndicatorWindow
 SEED = 42
 STRESS_DROP = 0.05  # predicted NDVI fall that trips an early-warning flag
 STRESS_BELOW_SEASON = 0.10  # or falling this far under the same window last year
+HORIZON_DAYS = 10
+DRIVER_MIN_EFFECT = 0.01  # hide local drivers below this |NDVI| effect (noise, and rounds to 0.00)
 
 FEATURES = (
     "ndvi",
@@ -155,12 +157,17 @@ def train(db: Session) -> tuple[HistGradientBoostingRegressor, dict] | None:
     metrics = {
         "model": "HistGradientBoosting",
         "cv": "leave-one-plot-out",
+        "horizon_days": HORIZON_DAYS,
         "model_rmse": round(model_rmse, 4),
         "persistence_rmse": round(persist_rmse, 4),
         "skill_vs_persistence_pct": round(skill, 1),
         "n_samples": int(len(y)),
         "n_plots": len(uids),
+        "features": [{"feature": f, "label": FEATURE_LABELS[f]} for f in FEATURES],
         "top_drivers": drivers,
+        # Median of each feature over the training windows — the neutral "typical
+        # field" that per-plot local attribution occludes against (see _local_drivers).
+        "feature_medians": [round(float(m), 4) for m in np.median(X, axis=0)],
     }
     return model, metrics
 
@@ -177,6 +184,40 @@ def load_on_boot(db: Session) -> None:
     res = train(db)
     if res is not None:
         _model, _metrics = res
+
+
+def _local_drivers(feat: list[float], pred: float, top_k: int = 3) -> list[dict]:
+    """Explain one plot's forecast by occluding each feature to its typical value.
+
+    For the plot's feature vector, replace each feature in turn with the training
+    median (a "typical field-window") and re-predict. The signed change in NDVI is
+    that feature's local contribution: negative means the feature's actual value is
+    dragging the 10-day outlook down (a stress reason), positive means it is holding
+    the outlook up. Faithful to the fitted model and needs no extra dependency; the
+    contributions are directional, not additive-exact like SHAP.
+    """
+    if _model is None or _metrics is None:
+        return []
+    base = np.asarray(feat, dtype=float)
+    medians = np.asarray(_metrics["feature_medians"], dtype=float)
+    probes = np.tile(base, (len(FEATURES), 1))
+    np.fill_diagonal(probes, medians)  # each row occludes one feature to typical
+    effects = pred - _model.predict(probes)  # signed NDVI contribution per feature
+
+    drivers = [
+        {
+            "feature": FEATURES[i],
+            "label": FEATURE_LABELS[FEATURES[i]],
+            "value": round(float(base[i]), 4),
+            "typical": round(float(medians[i]), 4),
+            "effect": round(float(effects[i]), 4),
+            "direction": "below" if base[i] < medians[i] else "above",
+        }
+        for i in range(len(FEATURES))
+    ]
+    drivers = [d for d in drivers if abs(d["effect"]) >= DRIVER_MIN_EFFECT]
+    drivers.sort(key=lambda d: abs(d["effect"]), reverse=True)
+    return drivers[:top_k]
 
 
 def forecast_ndvi(db: Session, plot_id: str) -> dict | None:
@@ -201,7 +242,7 @@ def forecast_ndvi(db: Session, plot_id: str) -> dict | None:
         return None
 
     pred = float(_model.predict(np.array([feat]))[0])
-    next_date = cur.date_start + timedelta(days=10)
+    next_date = cur.date_start + timedelta(days=HORIZON_DAYS)
 
     # Seasonal reference: same window ~1 year earlier (what "normal" looks like).
     anniversary = next_date - timedelta(days=365)
@@ -211,9 +252,14 @@ def forecast_ndvi(db: Session, plot_id: str) -> dict | None:
     baseline = sum(base) / len(base) if base else None
 
     delta = pred - cur.ndvi
-    stress = delta <= -STRESS_DROP or (
-        baseline is not None and pred - baseline <= -STRESS_BELOW_SEASON
-    )
+    dropped = delta <= -STRESS_DROP
+    seasonal = baseline is not None and pred - baseline <= -STRESS_BELOW_SEASON
+    stress = dropped or seasonal
+    # Name the exact trigger so the UI explains the flag faithfully, rather than
+    # inferring it: a predicted fall, a shortfall vs the same window last year, or both.
+    stress_reason = None
+    if stress:
+        stress_reason = "both" if dropped and seasonal else "drop" if dropped else "seasonal"
     return {
         "plot_id": plot_id,
         "current_date": cur.date_start.isoformat(),
@@ -223,6 +269,8 @@ def forecast_ndvi(db: Session, plot_id: str) -> dict | None:
         "delta": round(delta, 4),
         "baseline_ndvi": round(baseline, 4) if baseline is not None else None,
         "stress_warning": bool(stress),
+        "stress_reason": stress_reason,
+        "drivers": _local_drivers(feat, pred),
     }
 
 

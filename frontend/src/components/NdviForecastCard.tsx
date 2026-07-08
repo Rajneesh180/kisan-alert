@@ -1,8 +1,15 @@
-import { Activity, TrendingDown, TrendingUp } from "lucide-react";
+import { Activity, TrendingDown, TrendingUp, TriangleAlert } from "lucide-react";
 import { useEffect, useState } from "react";
 import { api, type Lang, type NdviEval, type NdviForecast, type Plot } from "../api";
 import { t } from "../i18n";
+import ModelCard from "./ModelCard";
 import Skeleton from "./Skeleton";
+
+const REASON_KEY: Record<string, string> = {
+  drop: "stressReasonDrop",
+  seasonal: "stressReasonSeasonal",
+  both: "stressReasonBoth",
+};
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -27,6 +34,7 @@ export default function NdviForecastCard({ plot, lang }: { plot: Plot; lang: Lan
   const [data, setData] = useState<NdviForecast | null>(null);
   const [metrics, setMetrics] = useState<NdviEval | null>(null);
   const [unavailable, setUnavailable] = useState(false);
+  const [cardOpen, setCardOpen] = useState(false);
 
   useEffect(() => {
     setData(null);
@@ -96,19 +104,68 @@ export default function NdviForecastCard({ plot, lang }: { plot: Plot; lang: Lan
             </p>
           )}
 
+          {data.stress_warning && data.stress_reason && (
+            <div className="mt-2.5 flex items-start gap-1.5 rounded-lg bg-amber-50 p-2 text-xs text-amber-800">
+              <TriangleAlert className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+              <span>{t(REASON_KEY[data.stress_reason], lang)}</span>
+            </div>
+          )}
+
+          {data.drivers.length > 0 && (
+            <div className="mt-2.5 rounded-lg bg-stone-50 p-2.5">
+              <div className="text-xs font-medium text-stone-700">{t("ndviWhy", lang)}</div>
+              <div className="mt-1.5 space-y-1">
+                {data.drivers.map((dr) => {
+                  const down = dr.effect < 0;
+                  return (
+                    <div
+                      key={dr.feature}
+                      className="flex items-center justify-between gap-2 text-xs"
+                      title={`${dr.value.toFixed(2)} · ${t(dr.direction, lang)} (${dr.typical.toFixed(2)})`}
+                    >
+                      <span className="text-stone-600">{dr.label}</span>
+                      <span
+                        className={`inline-flex items-center gap-0.5 font-medium tabular-nums ${
+                          down ? "text-amber-700" : "text-brand-700"
+                        }`}
+                      >
+                        {down ? (
+                          <TrendingDown className="h-3.5 w-3.5" />
+                        ) : (
+                          <TrendingUp className="h-3.5 w-3.5" />
+                        )}
+                        {dr.effect >= 0 ? "+" : ""}
+                        {dr.effect.toFixed(2)}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="mt-1.5 text-[10px] leading-relaxed text-stone-500">
+                {t("ndviWhyNote", lang)}
+              </div>
+            </div>
+          )}
+
           {metrics && (
-            <p className="mt-2.5 border-t border-stone-100 pt-2 text-[11px] leading-relaxed text-stone-500">
-              {metrics.model} · +{metrics.skill_vs_persistence_pct}% {t("ndviSkill", lang)} ({metrics.cv},{" "}
-              {metrics.n_plots} {t("ndviPlots", lang)})
-              {metrics.top_drivers[0] && (
-                <>
-                  {" · "}
-                  {t("ndviDriver", lang)}: {metrics.top_drivers[0].label}
-                </>
-              )}
-            </p>
+            <div className="mt-2.5 flex items-center justify-between gap-2 border-t border-stone-100 pt-2">
+              <p className="text-[11px] leading-relaxed text-stone-500">
+                {metrics.model} · +{metrics.skill_vs_persistence_pct}% {t("ndviSkill", lang)} (
+                {metrics.n_plots} {t("ndviPlots", lang)})
+              </p>
+              <button
+                onClick={() => setCardOpen(true)}
+                className="shrink-0 rounded-md px-1.5 py-0.5 text-[11px] font-medium text-brand-700 underline-offset-2 hover:underline"
+              >
+                {t("modelCard", lang)}
+              </button>
+            </div>
           )}
         </>
+      )}
+
+      {cardOpen && metrics && (
+        <ModelCard metrics={metrics} lang={lang} onClose={() => setCardOpen(false)} />
       )}
     </div>
   );
