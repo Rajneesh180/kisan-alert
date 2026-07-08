@@ -7,7 +7,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 class Settings(BaseSettings):
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.5-flash"
+    gemini_model: str = "gemini-3.5-flash"
     db_path: str = str(REPO_ROOT / "kisan.db")
     data_dir: Path = REPO_ROOT / "data"
     # Uploaded photos and the SQLite file are the only runtime writes. On a
