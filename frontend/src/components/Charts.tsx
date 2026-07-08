@@ -43,18 +43,22 @@ function LegendDot({ color, label }: { color: string; label: string }) {
 
 export function ForecastChart({ plot, lang }: { plot: Plot; lang: Lang }) {
   const [days, setDays] = useState<ForecastDay[]>([]);
+  const [recorded, setRecorded] = useState(false);
 
   useEffect(() => {
     api
       .alerts(plot.id, "live")
-      .then((r) => setDays(r.days))
+      .then((r) => {
+        setDays(r.days);
+        setRecorded(r.live_unavailable);
+      })
       .catch(() => setDays([]));
   }, [plot.id]);
 
   return (
     <div className="card card-hover">
       <div className="mb-2 flex items-center justify-between">
-        <h2 className="card-title text-base">{t("forecast", lang)}</h2>
+        <h2 className="card-title text-base">{recorded ? t("forecastRecorded", lang) : t("forecast", lang)}</h2>
         <div className="flex gap-3">
           <LegendDot color={WATER} label="rain mm" />
           <LegendDot color={ET0} label="ET₀ mm" />
@@ -70,6 +74,9 @@ export function ForecastChart({ plot, lang }: { plot: Plot; lang: Lang }) {
           <Line dataKey="et0_mm" name="ET0 mm" stroke={ET0} strokeWidth={2} dot={false} />
         </ComposedChart>
       </ResponsiveContainer>
+      {recorded && (
+        <p className="mt-1 text-[10px] leading-relaxed text-stone-500">{t("forecastRecordedNote", lang)}</p>
+      )}
     </div>
   );
 }

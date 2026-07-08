@@ -24,6 +24,11 @@ REPLAY_NOTE = (
     "Replay of real recorded conditions from the Dec 2025-Apr 2026 Anantapur dry "
     "spell (Open-Meteo ERA5 archive), so the alert flow can be demonstrated year-round."
 )
+LIVE_FALLBACK_NOTE = (
+    "Live weather is unreachable from this demo host, so the alert flow is shown on "
+    "real recorded conditions (Dec 2025-Apr 2026 Anantapur dry spell, Open-Meteo ERA5 "
+    "archive). It uses the live Open-Meteo forecast wherever outbound access is open."
+)
 
 _cache: dict[tuple[float, float], tuple[float, list[dict]]] = {}
 

@@ -50,6 +50,16 @@ export const STR: Record<string, Entry> = {
   soilBuffer: { en: "Soil buffer", te: "నేల నిల్వ", hi: "मिट्टी भंडार" },
   irrigate: { en: "Irrigate", te: "తడి ఇవ్వండి", hi: "सिंचाई करें" },
   forecast: { en: "16-day forecast", te: "16-రోజుల అంచనా", hi: "16-दिन पूर्वानुमान" },
+  forecastRecorded: {
+    en: "16-day window (recorded)",
+    te: "16-రోజుల విండో (రికార్డ్)",
+    hi: "16-दिन विंडो (रिकॉर्डेड)",
+  },
+  forecastRecordedNote: {
+    en: "Live weather is unreachable from this demo host — showing a recorded 16-day window.",
+    te: "ఈ డెమో హోస్ట్ నుండి ప్రత్యక్ష వాతావరణం అందుబాటులో లేదు — రికార్డ్ చేసిన 16-రోజుల విండో చూపబడుతోంది.",
+    hi: "इस डेमो होस्ट से लाइव मौसम उपलब्ध नहीं — रिकॉर्डेड 16-दिन विंडो दिखाई जा रही है।",
+  },
   history: {
     en: "18-month field history (satellite + climate)",
     te: "18-నెలల పొలం చరిత్ర (ఉపగ్రహం + వాతావరణం)",

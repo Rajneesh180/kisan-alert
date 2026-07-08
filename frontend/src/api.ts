@@ -66,6 +66,7 @@ export interface Alert {
 export interface AlertsResponse {
   plot_id: string;
   mode: string;
+  live_unavailable: boolean;
   replay_note: string | null;
   days: ForecastDay[];
   dry_spell: { start: string; length_days: number; severity: string } | null;
